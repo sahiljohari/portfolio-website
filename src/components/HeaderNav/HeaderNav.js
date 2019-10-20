@@ -6,7 +6,7 @@ const HeaderNav = () => {
     return (
         <div className="navbar">
             {
-                content.map((nav, i) => (
+                content.navItems.map((nav, i) => (
                     <div key={i}><a href="/">{nav}</a></div>
                 ))
             }

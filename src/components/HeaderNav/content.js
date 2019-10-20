@@ -1,5 +1,8 @@
-export const content = [
-    "Portfolio",
-    "Contact",
-    "About"
-];
+export const content = {
+navItems:
+    [
+        "Portfolio",
+        "Contact",
+        "About"
+    ]
+};
