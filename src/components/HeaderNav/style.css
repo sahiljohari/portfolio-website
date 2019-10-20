@@ -1,20 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
 .navbar {
   display: flex;
   flex-direction: row;
-  place-content: center;
+  place-content: space-between;
+  font-family: "Work Sans", sans-serif;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #111;
+  background-color: #de1d3a;
 }
 
-.navbar div {
+.navbar .navItems div {
   float: left;
   position: relative;
 }
 
-.navbar div a {
+.navbar .navItems div a {
   display: block;
   color: #fff;
   text-align: center;
@@ -22,7 +24,7 @@
   text-decoration: none;
 }
 
-.navbar div a::before {
+.navbar .navItems div a::before {
   content: "";
   display: block;
   position: absolute;
@@ -34,15 +36,16 @@
   transition: all ease-in-out 250ms;
 }
 
-.navbar div a:hover::before {
+.navbar .navItems div a:hover::before {
   width: 100%;
 }
 
-.active {
-  background-color: #c06014;
-  color: #fff;
-}
+@media screen and (max-width: 600px) {
+  .navbar {
+    place-content: center;
+  }
 
-.active:hover {
-  color: #fff !important;
+  .links {
+    display: none;
+  }
 }
