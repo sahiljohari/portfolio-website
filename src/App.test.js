@@ -1,15 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 import { mount } from 'enzyme';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+configure({ adapter: new Adapter() });
+
+describe('Initialization', () => {
+  it('renders without crashing', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(<App />, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
 });
 
-it('contains all the child components', () => {
-  const wrapper = mount(<App />);
-  expect(wrapper.find('HeaderNav')).toBeTruthy();
-})
+describe('Component structure', () => {
+  it('contains all the child components', () => {
+    const wrapper = mount(<App />);
+    expect(wrapper.find('HeaderNav')).toBeTruthy();
+    expect(wrapper.find('IntroSection')).toBeTruthy();
+  })
+});
