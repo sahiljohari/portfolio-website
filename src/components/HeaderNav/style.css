@@ -1,8 +1,43 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #de1d3a;
+  height: 3rem;
+}
+
+.navbar__navigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.navbar__items {
   display: flex;
   flex-direction: row;
-  place-content: space-between;
+}
+
+.navbar__items div {
+  margin: 1rem;
+}
+
+.navbar__items div a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar__items div a:hover,
+.navbar__items div a:active {
+  color: #fff;
+}
+
+/* .navbar {
+  display: flex;
+  flex-direction: row;
   font-family: "Work Sans", sans-serif;
   list-style-type: none;
   margin: 0;
@@ -38,6 +73,10 @@
 
 .navbar .navItems div a:hover::before {
   width: 100%;
+} */
+
+.spacer {
+  flex: 1;
 }
 
 @media screen and (max-width: 600px) {
@@ -45,7 +84,8 @@
     place-content: center;
   }
 
-  .links {
+  .links,
+  .spacer {
     display: none;
   }
 }

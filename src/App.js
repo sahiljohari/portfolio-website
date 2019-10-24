@@ -6,8 +6,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <IntroSection />
       <HeaderNav />
+      <main style={{marginTop: "3rem"}}>
+        <IntroSection />
+      </main>
     </div>
   );
 }
