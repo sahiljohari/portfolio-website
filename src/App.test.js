@@ -20,5 +20,7 @@ describe('Component structure', () => {
     const wrapper = mount(<App />);
     expect(wrapper.find('HeaderNav')).toBeTruthy();
     expect(wrapper.find('IntroSection')).toBeTruthy();
+    expect(wrapper.find('SideDrawer')).toBeTruthy();
+    expect(wrapper.find('BackDrop')).toBeTruthy();
   })
 });
