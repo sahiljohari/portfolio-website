@@ -7,7 +7,7 @@ const HeaderNav = props => {
     return (
         <header className="navbar">
             <nav className="navbar__navigation">
-                <DrawerToggleButton />
+                <DrawerToggleButton click={props.drawerClickHandler} />
                 <div className="navbar__items">
                     {
                         content.navItems.map((nav, i) => (

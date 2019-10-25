@@ -20,3 +20,46 @@
   height: 2px;
   background: #fff;
 }
+
+.side-drawer {
+  height: 100%;
+  background: #fff;
+  box-shadow: 2px 0 14px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  max-width: 400px;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.side-drawer.open {
+  transform: translateX(0);
+}
+
+.side-drawer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.side-drawer div div {
+  margin: 1.5rem 2rem;
+  height: auto;
+  text-align: center;
+}
+
+.side-drawer a {
+  text-decoration: none;
+  color: #de1d3a;
+}
+
+@media screen and (min-width: 600px) {
+  .side-drawer,
+  .toggle-button {
+    display: none;
+  }
+}

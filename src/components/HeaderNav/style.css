@@ -35,53 +35,13 @@
   color: #fff;
 }
 
-/* .navbar {
-  display: flex;
-  flex-direction: row;
-  font-family: "Work Sans", sans-serif;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #de1d3a;
-}
-
-.navbar .navItems div {
-  float: left;
-  position: relative;
-}
-
-.navbar .navItems div a {
-  display: block;
-  color: #fff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navbar .navItems div a::before {
-  content: "";
-  display: block;
-  position: absolute;
-  background-color: #fff;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 5px;
-  transition: all ease-in-out 250ms;
-}
-
-.navbar .navItems div a:hover::before {
-  width: 100%;
-} */
-
 .spacer {
   flex: 1;
 }
 
 @media screen and (max-width: 600px) {
-  .navbar {
-    place-content: center;
+  .navbar__items {
+    display: none;
   }
 
   .links,
