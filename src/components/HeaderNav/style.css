@@ -5,12 +5,14 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #de1d3a;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   height: 3rem;
 }
 
 .navbar__navigation {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   height: 100%;
   padding: 0 1rem;
@@ -26,13 +28,13 @@
 }
 
 .navbar__items div a {
-  color: #fff;
+  color: #de1d3a;
   text-decoration: none;
 }
 
 .navbar__items div a:hover,
 .navbar__items div a:active {
-  color: #fff;
+  color: #000;
 }
 
 .spacer {
