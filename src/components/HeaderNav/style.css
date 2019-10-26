@@ -5,8 +5,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #2a2a2a;
   height: 3rem;
 }
 
@@ -28,13 +27,13 @@
 }
 
 .navbar__items div a {
-  color: #de1d3a;
+  color: #bcbcbc;
   text-decoration: none;
 }
 
 .navbar__items div a:hover,
 .navbar__items div a:active {
-  color: #000;
+  color: #fff;
 }
 
 .spacer {
