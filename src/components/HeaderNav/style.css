@@ -5,13 +5,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #2a2a2a;
+  background-color: #000;
   height: 3rem;
 }
 
 .navbar__navigation {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
   height: 100%;
   padding: 0 1rem;
@@ -40,9 +40,20 @@
   flex: 1;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+  width: 10rem;
+  place-content: space-evenly;
+}
+
 @media screen and (max-width: 600px) {
   .navbar__items {
     display: none;
+  }
+
+  .navbar__navigation {
+    flex-direction: row-reverse;
   }
 
   .links,

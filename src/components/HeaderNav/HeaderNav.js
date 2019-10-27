@@ -1,6 +1,7 @@
 import React from 'react';
 import { content } from './content';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+import SocialLinks from '../SocialLinks/SocialLinks';
 import './style.css';
 
 const HeaderNav = props => {
@@ -17,7 +18,7 @@ const HeaderNav = props => {
                 </div>
                 <div className="spacer" />
                 <div className="links">
-                    [placeholder for links]
+                    <SocialLinks />
                 </div>
             </nav>
         </header>

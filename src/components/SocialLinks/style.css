@@ -1,0 +1,13 @@
+.link-icons {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.link-icons a {
+  color: #bcbcbc;
+  text-decoration: none;
+}
+
+.link-icons a:hover {
+  color: #fff;
+}
