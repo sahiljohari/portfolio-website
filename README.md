@@ -2,8 +2,8 @@
 
 #### Progress so far:
 
-- [ ] Navigation bar
-- [ ] Introduction section
+- [x] Navigation bar
+- [x] Introduction section
 - [ ] About section
 - [ ] Portfolio section
 - [ ] Contact section for mobile version
