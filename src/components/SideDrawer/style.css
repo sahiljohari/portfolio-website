@@ -18,12 +18,12 @@
 .toggle-button__line {
   width: 1.5rem;
   height: 2px;
-  background: #fff;
+  background: var(--primary-theme-text-color);
 }
 
 .side-drawer {
   height: 20%;
-  background: #303030;
+  background: var(--primary-theme-text-color);
   box-shadow: 2px 0 14px rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 0;
@@ -54,7 +54,7 @@
 
 .side-drawer a {
   text-decoration: none;
-  color: #fff;
+  color: var(--primary-theme-color);
 }
 
 @media screen and (min-width: 600px) {

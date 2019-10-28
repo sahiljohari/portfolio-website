@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #303030;
+  background-color: var(--primary-theme-color);
   height: 3rem;
 }
 
@@ -27,13 +27,14 @@
 }
 
 .navbar__items div a {
-  color: #bcbcbc;
+  color: var(--primary-theme-passive-color);
   text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
 .navbar__items div a:hover,
 .navbar__items div a:active {
-  color: #64ffda;
+  color: var(--primary-theme-text-color);
 }
 
 .spacer {

@@ -1,3 +1,11 @@
+:root {
+  --primary-theme-color: #ffdb58;
+  --primary-theme-text-color: #1c1c1c;
+  --primary-theme-passive-color: #555555;
+  --secondary-theme-text-color: #bcbcbc;
+  --dark-theme-bg-color: #303030;
+}
+
 .App {
   box-sizing: border-box;
   height: 100%;

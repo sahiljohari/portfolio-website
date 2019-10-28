@@ -8,8 +8,7 @@
   width: 85vw;
   min-height: 100vh;
   font-family: "IBM Plex Sans", sans-serif;
-  color: #bcbcbc;
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  color: var(--secondary-theme-text-color);
 }
 
 .intro-title {
@@ -28,7 +27,7 @@
 
 .intro-text span {
   font-weight: bold;
-  color: #64ffda;
+  color: var(--primary-theme-color);
 }
 
 .intro-description {
