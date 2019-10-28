@@ -16,14 +16,14 @@
 }
 
 .toggle-button__line {
-  width: 1.75rem;
+  width: 1.5rem;
   height: 2px;
   background: #fff;
 }
 
 .side-drawer {
   height: 20%;
-  background: #000;
+  background: #303030;
   box-shadow: 2px 0 14px rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 0;
