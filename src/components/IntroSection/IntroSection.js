@@ -4,13 +4,18 @@ import './style.css';
 
 const IntroSection = () => {
     return (
-        <div className='intro'>
-            <div className='intro-title'>
-                <div className="greeting">{content.greeting}</div>
-                <div className="intro-text">{content.introText} <span>{content.name}</span></div>
+        <>
+            <div className='intro'>
+                <div className='intro-title'>
+                    <div className="greeting">{content.greeting}</div>
+                    <div className="intro-text">{content.introText} <span>{content.name}</span></div>
+                </div>
+                <div className="intro-description">{content.description}</div>
+                <div className="buttons">
+                    <a href="assets/resume.pdf" target="_blank" className="button-download">Download Resume</a>
+                </div>
             </div>
-            <div className="intro-description">{content.description}</div>
-</div>
+        </>
     );
 };
 
