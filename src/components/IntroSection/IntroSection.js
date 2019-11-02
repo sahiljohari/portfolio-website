@@ -14,7 +14,6 @@ const IntroSection = () => {
                 <a href="assets/resume.pdf" target="_blank" className="button-download">{content.buttonTitle}</a>
             </div>
         </div>
-        
     );
 };
 

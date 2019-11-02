@@ -3,6 +3,7 @@ import HeaderNav from './components/HeaderNav/HeaderNav';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import BackDrop from './components/BackDrop/BackDrop';
 import IntroSection from './components/IntroSection/IntroSection';
+import AboutSection from './components/AboutSection/AboutSection';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       }
       <main style={{marginTop: "3rem"}}>
         <IntroSection />
+        <AboutSection />
       </main>
     </div>
   );
