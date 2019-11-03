@@ -3,6 +3,9 @@ import { content } from './content';
 import './style.css';
 
 const AboutSection = () => {
+    // Can we use useMemo hook here?
+    let styledText = content.backgroundParagraph.replace(content.university, '<a href="https://www.smu.edu/" target="_blank">'+content.university+'</a>');
+    styledText = styledText.replace(content.company, '<a href="https://www.riversagile.com/" target="_blank">'+content.company+'</a>');
     return (
         <div className='root'>
             <div className='sectionTitle'>{content.sectionTitle}</div>
@@ -12,7 +15,7 @@ const AboutSection = () => {
                 </div>
                 <div className='content-text'>
                     <p>{content.introParagraph}</p>
-                    <p>{content.backgroundParagraph}</p>
+                    <p dangerouslySetInnerHTML={{__html: styledText}}></p>
                     <p>{content.technologies.titleText}</p>
                     <div className='tech-list'>
                         <ul>

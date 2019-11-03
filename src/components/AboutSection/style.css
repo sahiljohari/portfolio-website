@@ -22,6 +22,11 @@
   font-size: 0.8rem;
 }
 
+.content-text a {
+  color: var(--primary-theme-color);
+  text-decoration: none;
+}
+
 .tech-list ul {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
