@@ -6,6 +6,7 @@
 .intro {
   margin: 10rem auto 0;
   width: 85vw;
+  height: 90vh;
   font-family: "IBM Plex Sans", sans-serif;
   color: var(--secondary-theme-text-color);
 }
