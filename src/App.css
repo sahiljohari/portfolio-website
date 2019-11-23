@@ -1,12 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
+
 :root {
   --primary-theme-color: #ffdb58;
   --primary-theme-text-color: #1c1c1c;
-  --primary-theme-passive-color: #555555;
+  --primary-theme-passive-text-color: #555555;
   --secondary-theme-text-color: #bcbcbc;
   --dark-theme-bg-color: #303030;
 }
 
 .App {
+  font-family: "IBM Plex Sans", sans-serif;
   box-sizing: border-box;
   height: 100%;
 }

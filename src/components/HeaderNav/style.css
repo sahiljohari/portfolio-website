@@ -7,6 +7,7 @@
   width: 100%;
   background-color: var(--primary-theme-color);
   height: 3rem;
+  z-index: 300;
 }
 
 .navbar__navigation {
@@ -27,7 +28,7 @@
 }
 
 .navbar__items div a {
-  color: var(--primary-theme-passive-color);
+  color: var(--primary-theme-passive-text-color);
   text-decoration: none;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
