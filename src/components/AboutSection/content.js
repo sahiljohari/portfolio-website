@@ -7,5 +7,7 @@ export const content = {
         techStack: ["HTML/(S)CSS", "JavaScript (ES6+)", "React", "Python", "C#", "Oracle PL-SQL", "MySQL"]
     },
     university: "Southern Methodist University",
-    company: "Rivers Agile"
+    universityHref: '<a href="https://www.smu.edu/" target="_blank">Southern Methodist University</a>',
+    company: "Rivers Agile",
+    companyHref: '<a href="https://www.riversagile.com/" target="_blank">Rivers Agile</a>'
 };

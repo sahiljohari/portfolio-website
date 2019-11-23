@@ -1,4 +1,4 @@
-.root {
+.about {
   height: 90vh;
   margin: 0;
 }
@@ -67,7 +67,7 @@
 }
 
 @media screen and (min-width: 600px) {
-  .root {
+  .about {
     margin: 0 4.5rem;
   }
 
