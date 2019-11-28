@@ -1,5 +1,20 @@
 export const content = {
   sectionTitle: "My Portfolio",
+  workExperience: [
+    {
+      company: "Capgemini Technology Services India Ltd.",
+      role: "Senior Analyst",
+      period: "June 2015 - June 2017",
+      responsibilities:
+        "Contributed software engineering skills in the development of products through the software lifecycle, from requirements definition through successful deployment. Introduced methodologies that enhanced product definition, release processes and customization of applications to user needs. Expedited the internal business processes by 80% by providing technical solutions to several manual operations."
+    },
+    {
+      company: "Company name",
+      role: "Role",
+      period: "9th August 2019 - Present",
+      responsibilities: "Responsibilities"
+    }
+  ],
   projects: [
     {
       projectId: 1,

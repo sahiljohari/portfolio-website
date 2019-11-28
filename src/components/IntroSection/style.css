@@ -1,5 +1,6 @@
 .intro {
-  margin: 10rem auto 0;
+  margin: 8rem auto 0;
+  padding: 1rem;
   width: 85vw;
   height: 90vh;
   color: var(--secondary-theme-text-color);
