@@ -1,11 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
 
-:root {
+/* :root {
   --primary-theme-color: #ffdb58;
   --primary-theme-text-color: #1c1c1c;
   --primary-theme-passive-text-color: #555555;
   --secondary-theme-text-color: #bcbcbc;
   --dark-theme-bg-color: #303030;
+} */
+
+:root {
+  --primary-theme-color: #000000;
+  --primary-theme-text-color: #ffffff;
+  --primary-theme-passive-text-color: #c7c7c7;
+  --secondary-theme-text-color: #303030;
+  --dark-theme-bg-color: #dddddd;
 }
 
 .App {

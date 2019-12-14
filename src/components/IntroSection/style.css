@@ -1,8 +1,6 @@
 .intro {
-  margin: 8rem auto 0;
+  margin: 3rem 5rem 2rem;
   padding: 1rem;
-  width: 85vw;
-  height: 90vh;
   color: var(--secondary-theme-text-color);
 }
 
@@ -56,6 +54,11 @@
 }
 
 @media screen and (max-width: 600px) {
+  .intro {
+    margin: 3rem 2rem 0;
+    height: 100%;
+  }
+
   .intro-text {
     font-size: 2rem;
   }
