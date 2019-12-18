@@ -2,17 +2,17 @@ import React from "react";
 import HeaderNav from "./components/HeaderNav/HeaderNav";
 import IntroSection from "./components/IntroSection/IntroSection";
 import AboutSection from "./components/AboutSection/AboutSection";
-import PortfolioSection from "./components/PortfolioSection/PortfolioSection";
+// import PortfolioSection from "./components/PortfolioSection/PortfolioSection";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <HeaderNav />
-      <main style={{ marginTop: "3rem" }}>
+      <main>
         <IntroSection />
         <AboutSection />
-        <PortfolioSection />
+        {/* <PortfolioSection /> */}
       </main>
     </div>
   );

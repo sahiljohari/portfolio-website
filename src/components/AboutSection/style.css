@@ -67,11 +67,18 @@
   );
 }
 
-@media screen and (min-width: 600px) {
-  .about {
-    margin: 0 5rem 2rem;
+.about-svg svg {
+  width: 20rem;
+  height: 20rem;
+}
+
+@media screen and (max-width: 600px) {
+  .about-svg svg {
+    width: 18rem;
+    height: 10rem;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .content-text {
     font-size: 1rem;

@@ -4,11 +4,11 @@
 }
 
 .link-icons a {
-  color: var(--primary-theme-passive-text-color);
+  color: var(--secondary-theme-text-color);
   text-decoration: none;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
 .link-icons a:hover {
-  color: var(--primary-theme-text-color);
+  color: var(--primary-theme-color);
 }

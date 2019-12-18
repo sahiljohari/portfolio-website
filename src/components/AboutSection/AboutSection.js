@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactSVG as SVG } from "react-svg";
 import { content } from "./content";
 import "./style.css";
 
@@ -18,9 +19,10 @@ const AboutSection = () => {
     <div className="about">
       <h2 className="sectionTitle">{sectionTitle}</h2>
       <div className="content">
-        <div className="display-img">
-          <img src="assets/Me.JPG" alt="profile" />
-        </div>
+        <SVG
+          className={"about-svg"}
+          src={"assets/svgs/undraw_profile_6l1l.svg"}
+        />
         <div className="content-text">
           <p>{introParagraph}</p>
           <p dangerouslySetInnerHTML={{ __html: styledText }}></p>

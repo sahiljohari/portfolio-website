@@ -9,9 +9,10 @@ const HeaderNav = () => {
       <nav className="navbar__navigation">
         <div className="navbar__items">
           {content.map((nav, i) => (
-            <div key={i}>
+            <div className="nav__item" key={i}>
               <a href={nav.url}>
                 <i className={nav.type}></i>
+                <p>{nav.name}</p>
               </a>
             </div>
           ))}
