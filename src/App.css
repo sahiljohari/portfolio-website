@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
 
 /* :root {
   --primary-theme-color: #ffdb58;
@@ -14,10 +14,11 @@
   --primary-theme-passive-text-color: #c7c7c7;
   --secondary-theme-text-color: #303030;
   --dark-theme-bg-color: #dddddd;
+  --about-section-bg-color: #ededf4;
 }
 
 .App {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Barlow", sans-serif;
   box-sizing: border-box;
   height: 100%;
   display: flex;

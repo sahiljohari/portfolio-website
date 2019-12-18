@@ -21,7 +21,7 @@ const AboutSection = () => {
       <div className="content">
         <SVG
           className={"about-svg"}
-          src={"assets/svgs/undraw_profile_6l1l.svg"}
+          src={"assets/svgs/undraw_about_me_wa29.svg"}
         />
         <div className="content-text">
           <p>{introParagraph}</p>
