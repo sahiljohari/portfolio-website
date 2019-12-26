@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
 
 .intro {
-  margin: 3rem 5rem 2rem;
-  padding: 1rem;
+  margin: 0;
+  padding: 5rem 3rem 5rem;
   color: var(--secondary-theme-text-color);
+  background-color: var(--intro-section-bg-color);
   font-family: "Barlow", sans-serif;
   height: 90vh;
   text-align: center;
@@ -64,13 +65,13 @@
 
 @media screen and (max-width: 600px) {
   .intro {
-    margin: 3rem 2rem 0;
     height: 80vh;
   }
 
   .intro-svg svg {
     width: 15rem;
     height: 10rem;
+    margin-bottom: 1rem;
   }
 
   .intro-text {

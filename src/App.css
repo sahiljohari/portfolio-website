@@ -14,7 +14,17 @@
   --primary-theme-passive-text-color: #c7c7c7;
   --secondary-theme-text-color: #303030;
   --dark-theme-bg-color: #dddddd;
+
+  --intro-section-bg-color: #ffffff;
+  --intro-section-accent-color: #ea584f;
+
   --about-section-bg-color: #ededf4;
+  --about-section-accent-color: #e98074;
+
+  --portfolio-section-bg-color: #f2f2f2;
+  --portfolio-section-banner-color: #ffffff;
+  --portfolio-section-card-bg-color: #c7c7c7;
+  --portfolio-section-accent-color: #e85a47;
 }
 
 .App {
