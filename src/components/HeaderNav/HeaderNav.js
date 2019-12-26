@@ -8,14 +8,16 @@ const HeaderNav = () => {
     <header className="navbar">
       <nav className="navbar__navigation">
         <div className="navbar__items">
-          {content.map((nav, i) => (
-            <div className="nav__item" key={i}>
-              <a href={nav.url}>
-                <i className={nav.type}></i>
-                <p>{nav.name}</p>
-              </a>
-            </div>
-          ))}
+          {content
+            .filter(nav => nav.show)
+            .map((nav, i) => (
+              <div className="nav__item" key={i}>
+                <a href={nav.url}>
+                  <i className={nav.type}></i>
+                  <p>{nav.name}</p>
+                </a>
+              </div>
+            ))}
         </div>
         <div className="spacer" />
         <div className="links">

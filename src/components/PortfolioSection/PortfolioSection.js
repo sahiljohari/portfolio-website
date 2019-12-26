@@ -16,7 +16,7 @@ const PortfolioSection = () => {
         />
         <div className="work-experience-section">
           {workExperience.map((exp, i) => (
-            <div className="work-exp-card">
+            <div className="work-exp-card" key={i}>
               <div>
                 <h3>{exp.company}</h3>
                 <h4>{exp.role}</h4>
@@ -27,7 +27,7 @@ const PortfolioSection = () => {
           ))}
         </div>
       </div>
-      <div className="projects-grid">
+      {/* <div className="projects-grid">
         {projects.map(project => (
           <ProjectCard
             projectContent={project}
@@ -35,7 +35,7 @@ const PortfolioSection = () => {
             key={project.projectId}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
