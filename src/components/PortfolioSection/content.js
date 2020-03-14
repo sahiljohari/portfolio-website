@@ -4,7 +4,7 @@ export const content = {
     {
       company: "Rivers Agile",
       role: "Software Engineer",
-      period: "9th August 2019 - Present",
+      period: "August 2019 - Present",
       responsibilities:
         "Working in an agile environment with over 35 successfully completed user stories so far, my role is to develop front end modules on React for smooth and aesthetically pleasing user experience including unit tests for UI components using Jest and Enzyme. I also work closely with the UI design team in creating some exciting and rewarding user interfaces for web apps."
     },
