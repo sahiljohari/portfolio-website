@@ -14,6 +14,9 @@ function App() {
         <AboutSection />
         <PortfolioSection />
       </main>
+      <footer>
+        <HeaderNav isHeader={false} />
+      </footer>
     </div>
   );
 }

@@ -29,6 +29,7 @@
 .content-text a {
   color: var(--primary-theme-color);
   text-decoration: none;
+  font-style: italic;
 }
 
 .tech-list ul {

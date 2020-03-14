@@ -7,13 +7,16 @@ export const content = {
   technologies: {
     titleText: "Here are a few technologies I've been working with recently:",
     techStack: [
-      "HTML/(S)CSS",
-      "JavaScript (ES6+)",
+      "HTML",
       "React",
-      "Python",
-      "C#",
-      "Oracle PL-SQL",
-      "MySQL"
+      "CSS/SASS",
+      "Redux",
+      "JavaScript (ES6+)",
+      "Node",
+      "TypeScript",
+      "Cypress/Jest/Enzyme",
+      "Git/GitHub",
+      "REST API"
     ]
   },
   university: "Southern Methodist University",
