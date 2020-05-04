@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactSVG as SVG } from "react-svg";
+import ArrowButton from "../common/ArrowButton/ArrowButton";
 import { content } from "./content";
 import "./style.css";
 
@@ -28,6 +29,7 @@ const IntroSection = () => {
           {content.buttonTitle}
         </a>
       </div>
+      <ArrowButton />
     </div>
   );
 };

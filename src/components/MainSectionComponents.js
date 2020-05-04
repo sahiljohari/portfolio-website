@@ -2,6 +2,7 @@ import React from "react";
 import IntroSection from "./IntroSection/IntroSection";
 import AboutSection from "./AboutSection/AboutSection";
 import PortfolioSection from "./PortfolioSection/PortfolioSection";
+import BackToTop from "react-back-to-top-button";
 
 const MainSectionComponents = () => {
   const options = [
@@ -13,6 +14,15 @@ const MainSectionComponents = () => {
     },
     {
       component: PortfolioSection,
+    },
+    {
+      component: BackToTop,
+      props: {
+        showOnScrollUp: false,
+        showAt: 200,
+        speed: 300,
+        children: "Back to top",
+      },
     },
   ];
 
