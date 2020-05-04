@@ -26,10 +26,10 @@ const MainSectionComponents = () => {
   ];
 
   const renderOptions = (options) =>
-    options.map((option) => {
+    options.map((option, i) => {
       const { component: Component, props } = option;
       if (Component) {
-        return <Component {...props} />;
+        return <Component key={i} {...props} />;
       }
       return null;
     });
