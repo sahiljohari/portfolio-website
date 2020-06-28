@@ -15,7 +15,8 @@ const IntroSection = () => {
         <div className="greeting">{content.greeting}</div>
         <div className="intro-text">
           {content.introText}
-          <span>{content.name}</span>
+          {content.firstName}
+          <span>{content.lastName}</span>
         </div>
       </div>
       <div className="intro-description">{content.description}</div>

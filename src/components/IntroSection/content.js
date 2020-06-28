@@ -1,7 +1,8 @@
 export const content = {
   greeting: "",
   introText: "",
-  name: "Sahil Johari",
+  firstName: "Sahil ",
+  lastName: "Johari",
   description: "Software engineer / Front-end Developer",
-  buttonTitle: "Download Resume"
+  buttonTitle: "Download Resume",
 };

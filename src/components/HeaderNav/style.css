@@ -10,6 +10,14 @@
   z-index: 300;
 }
 
+.logo {
+  font-size: 1.5rem;
+  margin: 0 0 0 2rem;
+  padding: 0;
+  color: var(--intro-section-accent-color);
+  transition: 0.5s linear;
+}
+
 .footer {
   display: flex;
   place-content: center;
@@ -76,7 +84,8 @@
   .navbar,
   .navbar__items,
   .links-header,
-  .spacer {
+  .spacer,
+  .logo {
     width: 100%;
     height: 3rem;
     display: none;

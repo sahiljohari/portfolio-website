@@ -1,14 +1,15 @@
+export const logo = "Sahil Johari";
 export const content = [
   {
     name: "About",
     type: "fas fa-user",
     url: "/",
-    show: false
+    show: false,
   },
   {
     name: "Portfolio",
     type: "fas fa-project-diagram",
     url: "/",
-    show: false
-  }
+    show: false,
+  },
 ];
