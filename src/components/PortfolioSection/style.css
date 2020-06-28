@@ -40,11 +40,39 @@
   text-align: justify;
 }
 
-.work-exp-company-name {
-  margin-bottom: 0.5rem;
+.work-exp-card-header {
+  display: flex;
+  flex-direction: column;
 }
+
+.work-exp-company-name {
+  margin: 0 0 0.5rem 0;
+}
+
+.work-exp-card-subheader {
+  display: flex;
+  flex-direction: row;
+  place-content: space-between;
+}
+
+.work-exp-card-subheader > label {
+  text-align: right;
+}
+
 .work-exp-role-name {
   margin: 0;
+}
+
+.tags {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+}
+
+.tag {
+  border: 1px dashed var(--secondary-theme-text-color);
+  margin: 0.25rem;
+  text-align: center;
+  width: auto;
 }
 
 .projects-grid {
@@ -132,6 +160,9 @@
     font-size: 1rem;
     margin: 0 0 0 3rem;
     padding: 1rem;
-    max-width: 40rem;
+    max-width: 70rem;
+  }
+  .work-exp-card {
+    padding: 1.5rem;
   }
 }
