@@ -10,6 +10,15 @@
   color: var(--primary-theme-color);
 }
 
+.subSectionTitle {
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--primary-theme-color);
+  background-color: #e7e7e7;
+  padding: 0.75rem;
+}
+
 .work-experience-container {
   display: flex;
   flex-direction: row;
@@ -65,7 +74,7 @@
 
 .tags {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 }
 
 .tag {
@@ -73,25 +82,26 @@
   margin: 0.25rem;
   text-align: center;
   width: auto;
+  word-wrap: normal;
 }
 
 .projects-grid {
   display: grid;
   position: relative;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto;
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   margin: auto;
   margin-top: 0;
-  padding: 1rem 0;
+  padding: 1rem;
   border-radius: 10px;
+  width: 70rem;
+  background-color: var(--primary-theme-text-color);
 }
 
 .project-card {
-  display: grid;
-  grid-row-gap: 5px;
-  grid-template-rows: auto;
-  grid-template-columns: auto;
+  display: flex;
+  flex-direction: column;
   position: relative;
   margin: 0;
   padding: 0;
@@ -110,7 +120,7 @@
 .project-card a,
 .project-card a:visited,
 .project-card a:focus {
-  padding: 1rem;
+  padding: 0 1rem;
   text-decoration: none;
   outline: none;
   color: var(--secondary-theme-text-color);
@@ -129,6 +139,7 @@
 
   .projects-grid {
     grid-template-columns: auto;
+    width: auto;
   }
 
   .work-experience-container {
@@ -141,13 +152,14 @@
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 376px) {
+@media screen and (max-width: 900px) and (min-width: 376px) {
   .portfolio-container {
     margin: 0;
   }
 
   .projects-grid {
     grid-template-columns: auto;
+    width: auto;
   }
 
   .work-experience-container {
