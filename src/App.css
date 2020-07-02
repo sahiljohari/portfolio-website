@@ -1,32 +1,28 @@
-@import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
 
 :root {
-  --primary-theme-color: #000000;
-  --primary-theme-text-color: #ffffff;
-  --primary-theme-passive-text-color: #c7c7c7;
-  --secondary-theme-text-color: #303030;
-  --dark-theme-bg-color: #dddddd;
+	--primary-theme-color: #000000;
+	--primary-theme-text-color: #ffffff;
+	--primary-theme-passive-text-color: #c7c7c7;
+	--secondary-theme-text-color: #303030;
+	--dark-theme-bg-color: #dddddd;
 
-  --intro-section-bg-color: #ffffff;
-  --intro-section-accent-color: #ea584f;
+	--intro-section-bg-color: #ffffff;
+	--intro-section-accent-color: #ea584f;
 
-  --about-section-bg-color: #ededf4;
-  --about-section-accent-color: #e98074;
+	--about-section-bg-color: #ededf4;
+	--about-section-accent-color: #e98074;
 
-  --portfolio-section-bg-color: #f2f2f2;
-  --portfolio-section-banner-color: #ffffff;
-  --portfolio-section-card-bg-color: #c7c7c7;
-  --portfolio-section-accent-color: #e85a47;
+	--portfolio-section-bg-color: #f2f2f2;
+	--portfolio-section-banner-color: #ffffff;
+	--portfolio-section-card-bg-color: #c7c7c7;
+	--portfolio-section-accent-color: #e85a47;
 }
 
 .App {
-  font-family: "Barlow", sans-serif;
-  box-sizing: border-box;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  margin-top: 3rem;
+	font-family: 'Barlow', sans-serif;
+	box-sizing: border-box;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
