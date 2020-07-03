@@ -28,9 +28,8 @@
 }
 
 .content-text a {
-	color: var(--primary-theme-color);
+	color: var(--about-section-accent-color);
 	text-decoration: none;
-	font-style: italic;
 }
 
 .tech-list ul {

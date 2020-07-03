@@ -1,13 +1,3 @@
-a {
-	text-decoration: none;
-}
-
-a:visited,
-a:active {
-	color: #000000;
-	text-decoration: none;
-}
-
 .testimonials {
 	margin: 0;
 	padding: 0 3rem 3rem;
@@ -57,6 +47,16 @@ a:active {
 	font-size: 1rem;
 }
 
+.name a {
+	text-decoration: none;
+}
+
+.name a:visited,
+.name a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
 .profession {
 	font-size: 0.75rem;
 }
@@ -71,10 +71,30 @@ a:active {
 	line-height: 1.5rem;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 425px) {
 	.displayImg {
-		width: 10rem;
-		height: 10rem;
+		width: 8rem;
+		height: 8rem;
+	}
+
+	.name {
+		font-size: 1rem;
+	}
+
+	.profession {
+		font-size: 0.75rem;
+	}
+
+	.testimonialText {
+		font-size: 0.75rem;
+		line-height: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.displayImg {
+		width: 12rem;
+		height: 12rem;
 	}
 
 	.name {

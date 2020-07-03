@@ -5,7 +5,7 @@ import Testimonials from '../Testimonials/Testimonials';
 import './style.css';
 
 const AboutSection = () => {
-	const { sectionTitle, introParagraph, university, universityHref, company, companyHref } = content;
+	const { sectionTitle, introParagraph, extendedBackground, university, universityHref, company, companyHref } = content;
 	let styledText = content.backgroundParagraph.replace(university, universityHref).replace(company, companyHref);
 	return (
 		<>
@@ -16,6 +16,7 @@ const AboutSection = () => {
 					<div className="content-text">
 						<p>{introParagraph}</p>
 						<p dangerouslySetInnerHTML={{ __html: styledText }}></p>
+						<p>{extendedBackground}</p>
 						<p>{content.technologies.titleText}</p>
 						<div className="tech-list">
 							<ul>
