@@ -1,11 +1,10 @@
 import React from 'react';
-import { content, sectionTitle } from './content';
+import { content } from './content';
 import './style.css';
 
 const Testimonials = () => {
 	return (
 		<div className="testimonials">
-			<h2 className="sectionTitle">{sectionTitle}</h2>
 			{content.map(card => (
 				<div className="testimonialCard" key={card.id}>
 					<div className="leftSection">
@@ -22,6 +21,7 @@ const Testimonials = () => {
 						</div>
 					</div>
 					<div className="rightSection">
+						<div className="highlight">{card.highlight}</div>
 						<p className="testimonialText">{card.testimony}</p>
 					</div>
 				</div>

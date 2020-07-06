@@ -46,7 +46,8 @@
 }
 
 .navbar__items div a:hover,
-.navbar__items div a:active {
+.navbar__items div a:active,
+.navbar__items div a:focus {
 	color: var(--intro-section-accent-color);
 }
 

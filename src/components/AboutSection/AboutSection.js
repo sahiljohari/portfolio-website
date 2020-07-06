@@ -5,12 +5,11 @@ import Testimonials from '../Testimonials/Testimonials';
 import './style.css';
 
 const AboutSection = () => {
-	const { sectionTitle, introParagraph, extendedBackground, university, universityHref, company, companyHref } = content;
+	const { introParagraph, extendedBackground, university, universityHref, company, companyHref } = content;
 	let styledText = content.backgroundParagraph.replace(university, universityHref).replace(company, companyHref);
 	return (
 		<>
 			<div className="about">
-				<h2 className="sectionTitle">{sectionTitle}</h2>
 				<div className="content">
 					<SVG className={'about-svg'} src={'assets/svgs/undraw_about_me_wa29.svg'} />
 					<div className="content-text">
