@@ -12,6 +12,10 @@
 	font-size: 1.5rem;
 	margin: auto 2rem;
 	padding: 0;
+	color: var(--primary-theme-color);
+}
+
+.logo > span {
 	color: var(--intro-section-accent-color);
 }
 

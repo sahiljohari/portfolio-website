@@ -15,10 +15,10 @@
 
 	--about-section-testimonial-bg-color: #3e3c56;
 
-	--portfolio-section-bg-color: #f2f2f2;
+	--portfolio-section-bg-color: rgba(234, 88, 79, 0.16);;
 	--portfolio-section-banner-color: #ffffff;
 	--portfolio-section-card-bg-color: #c7c7c7;
-	--portfolio-section-accent-color: #e85a47;
+	--portfolio-section-accent-color: #444053;
 }
 
 .App {
