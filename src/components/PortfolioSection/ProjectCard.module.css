@@ -1,7 +1,44 @@
 .projectCardImgContainer {
-  padding: 0.25rem;
+  position: relative;
+  height: 18rem;
+  overflow: hidden;
 }
 
 .projectCardImg {
+  background-clip: padding-box;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   width: 100%;
+}
+
+.projectCardDescription {
+  border-top: 1px solid var(--portfolio-section-stroke-color);
+  padding-bottom: 0.5rem;
+}
+
+.buttonGithub,
+.buttonGithub:focus,
+.buttonGithub:visited {
+	border-radius: 30px;
+	color: var(--secondary-theme-text-color);
+	font-size: 0.85rem;
+	background: transparent;
+	text-decoration: none;
+	margin: 0 5px;
+	padding: 0.5rem;
+	transition: 0.2s linear;
+	border: 1px solid var(--secondary-theme-text-color);
+}
+
+.buttonGithub:hover {
+  background-color: var(--secondary-theme-text-color);
+  color: var(--portfolio-section-banner-color);
+}
+
+.githubIcon {
+  font-size: 1.25rem;
+  margin-right: 0.25rem;
 }

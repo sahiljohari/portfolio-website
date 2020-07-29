@@ -14,7 +14,7 @@ const PortfolioSection = () => {
           <div className="bannerQuoteAuthor">{content.bannerQuoteAuthor}</div>
         </div>
       </div>
-      <h2 className="sectionTitle">{sectionTitle}</h2>
+      <h2 className="portfolioSectionTitle">{sectionTitle}</h2>
       <div className="projects-grid">
         {projects.map((project) => (
           <ProjectCard

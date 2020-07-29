@@ -4,7 +4,6 @@ import styles from "./ProjectCard.module.css";
 const ProjectCard = ({ projectContent, className }) => {
   const {
     projectName,
-    projectSummary,
     externalLink,
     thumbnail,
   } = projectContent;
@@ -18,10 +17,12 @@ const ProjectCard = ({ projectContent, className }) => {
           alt="messenger-app"
         ></img>
       </div>
-      <a href={externalLink} target="_blank" rel="noopener noreferrer">
-        <h3>{projectName}</h3>
-        <p>{projectSummary}</p>
-      </a>
+      <div className={styles.projectCardDescription}>
+        <h4>{projectName}</h4>
+        <a className={styles.buttonGithub} href={externalLink} target="_blank" rel="noopener noreferrer">
+          <i className={`fab fa-github ${styles.githubIcon}`}></i>View on GitHub
+        </a>
+      </div>
     </div>
   );
 };

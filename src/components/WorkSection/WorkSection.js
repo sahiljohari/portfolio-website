@@ -8,7 +8,7 @@ const WorkSection = () => {
   const showSvg = false;
   return (
     <div className="work-container">
-      <h2 className="sectionTitle">{sectionTitle}</h2>
+      <h2 className="workSectionTitle">{sectionTitle}</h2>
       <div className="work-experience-container">
         {showSvg && (
           <SVG

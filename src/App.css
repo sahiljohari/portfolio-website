@@ -12,13 +12,18 @@
 
 	--about-section-bg-color: #ffffff;
 	--about-section-accent-color: #e98074;
-
 	--about-section-testimonial-bg-color: #3e3c56;
 
-	--portfolio-section-bg-color: rgba(234, 88, 79, 0.16);;
+	--work-section-bg-color: #fbfbfb;
+	--work-section-banner-color: #ffffff;
+	--work-section-card-bg-color: #c7c7c7;
+	--work-section-accent-color: #ea584f;
+
+	--portfolio-section-bg-color: rgba(234, 88, 79, 0.16);
 	--portfolio-section-banner-color: #ffffff;
 	--portfolio-section-card-bg-color: #c7c7c7;
 	--portfolio-section-accent-color: #444053;
+	--portfolio-section-stroke-color: #e8e8e8;
 }
 
 .App {
