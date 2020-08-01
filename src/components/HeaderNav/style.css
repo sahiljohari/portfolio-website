@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 
 .navbar {
-	height: 6rem;
 	background-color: var(--primary-theme-text-color);
-	width: 100%;
+	padding: 1.5rem 4rem;
 	z-index: 300;
 }
 
@@ -31,12 +30,13 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	height: inherit;
+	place-content: space-between;
 }
 
 .navbar__items {
 	display: flex;
 	flex-direction: row;
+	align-items: flex-end;
 }
 
 .navbar__items div {
@@ -65,42 +65,16 @@
 	margin: 0 0 0 0.5rem;
 }
 
-.spacer {
-	flex: 1;
-	position: relative;
-}
-
-.links-header {
-	display: flex;
-	flex-direction: row;
-	place-content: flex-end;
-	line-height: 1rem;
-	margin-right: 3rem;
-}
-
-.links-footer {
-	display: flex;
-	flex-direction: row;
-	line-height: 1rem;
-	position: sticky;
-	bottom: 0;
-}
-
 @media screen and (max-width: 620px) {
-	.spacer,
-	.logo,
-	.links-header {
+	.navbar__items {
 		display: none;
 	}
 
-	.navbar__navigation {
-		place-content: center;
+	.logo {
+		margin: auto 0;
 	}
-}
 
-@media screen and (min-width: 620px) {
-	.footer,
-	.links-footer {
-		display: none;
+	.navbar {
+		padding: 1rem 1.5rem;
 	}
 }

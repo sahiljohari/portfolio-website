@@ -2,9 +2,9 @@ import React from 'react';
 import { content } from './content';
 import './style.css';
 
-const SocialLinks = ({ classname }) => {
+const SocialLinks = () => {
 	return (
-		<div className={classname}>
+		<div className="links-header">
 			{content
 				.filter(link => link.show)
 				.map((link, i) => (
