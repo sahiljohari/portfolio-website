@@ -21,8 +21,7 @@ const Testimonials = () => {
 						</div>
 					</div>
 					<div className="rightSection">
-						<div className="highlight">{card.highlight}</div>
-						<p className="testimonialText">{card.testimony}</p>
+						<q className="highlight">{card.highlight}</q>
 					</div>
 				</div>
 			))}

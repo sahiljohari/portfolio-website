@@ -6,7 +6,7 @@ export const content = [
 		profession: 'Software Engineer at IBM',
 		profile: 'https://www.linkedin.com/in/nick-mele/',
 		image: 'assets/images/nick-mele.jpg',
-		highlight: '"My favorite part about working with Sahil, was the confidence I had to give him a task and know that he would successfully complete it."',
+		highlight: 'My favorite part about working with Sahil, was the confidence I had to give him a task and know that he would successfully complete it.',
 		testimony:
 			'I worked with Sahil directly when he was on a project with me at IBM. ' +
 			'The eagerness and drive that he displayed to learn was incredible. ' +
@@ -20,7 +20,7 @@ export const content = [
 		profession: 'Software Engineer at Rivers Agile',
 		profile: 'https://www.linkedin.com/in/keith-jordan-64b0642b/',
 		image: 'assets/images/keith-jordan.jpg',
-		highlight: '"He is very patient, no matter how complex the issue, and he often seeks a simple solution."',
+		highlight: 'Sahil is very patient, no matter how complex the issue, and he often seeks a simple solution.',
 		testimony:
 			'Sahil has an extremely positive attitude.  No matter how much pressure we’re under, or what difficulties we have to endure, he stays calm and focused. ' +
 			'We have paired on several tasks, and I’ve always enjoyed working with Sahil. ' +
@@ -33,7 +33,7 @@ export const content = [
 		profession: 'Sr. Associate Director at Southern Methodist University',
 		profile: 'https://www.linkedin.com/in/alexataylor/',
 		image: 'assets/images/alexa-taylor.jpg',
-		highlight: '"He was dependable, careful, and always willing to work when needed."',
+		highlight: 'Sahil was dependable, careful, and always willing to work when needed.',
 		testimony:
 			'Sahil served as a student proctor during his time as a graduate student at SMU. ' +
 			' He was dependable, careful, and always willing to work when needed. ' +
