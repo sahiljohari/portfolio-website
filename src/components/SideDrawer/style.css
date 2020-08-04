@@ -27,7 +27,7 @@
 	background: var(--primary-theme-text-color);
 	box-shadow: 2px 0 14px rgba(0, 0, 0, 0.3);
 	position: fixed;
-	top: 3rem;
+	top: 0;
 	left: 0;
 	width: 100%;
 	max-height: 300px;
@@ -38,6 +38,7 @@
 
 .side-drawer.open {
 	transform: translateY(0);
+	top: 3rem;
 }
 
 .side-drawer div {

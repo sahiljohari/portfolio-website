@@ -1,9 +1,8 @@
 .links-header {
 	display: flex;
 	flex-direction: row;
-	place-content: flex-end;
+	place-content: center;
 	line-height: 1rem;
-	margin-right: 3rem;
 }
 
 .links-footer {
@@ -15,16 +14,16 @@
 }
 
 .link-icons {
-  font-size: 1.25rem;
-  margin: 1rem;
+	font-size: 1.25rem;
+	margin: 1rem;
 }
 
 .link-icons a {
-  color: var(--secondary-theme-text-color);
-  text-decoration: none;
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+	color: var(--secondary-theme-text-color);
+	text-decoration: none;
+	transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
 .link-icons a:hover {
-  color: var(--primary-theme-color);
+	color: var(--primary-theme-color);
 }
