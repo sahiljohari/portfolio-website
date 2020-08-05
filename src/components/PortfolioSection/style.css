@@ -5,57 +5,57 @@
 
 .banner {
 	background-color: var(--portfolio-section-bg-color);
-	display: flex;
-	flex-direction: row;
-	place-content: center;
 	color: var(--portfolio-section-accent-color);
-	padding: 6.75rem 5.625rem;
-	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	place-content: center;
+	align-items: center;
+	padding: 1rem;
 }
 
 .portfolio-svg svg {
-	width: 24rem;
-	height: 21rem;
+	width: 15rem;
+	height: 15rem;
 }
 
 .bannerQuote {
-	font-size: 4.5rem;
+	font-size: 1.5rem;
 	font-weight: bold;
-	text-align: right;
-	max-width: 45.0625rem;
+	text-align: center;
 }
 
 .bannerQuoteAuthor {
-	font-size: 2.25rem;
+	font-size: 1rem;
 	margin-top: 1rem;
 }
 
 .portfolioSectionTitle {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 1.5rem;
 	font-weight: normal;
 	color: var(--primary-theme-color);
 }
 
 .projects-grid {
-	display: grid;
 	position: relative;
-	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-	gap: 6rem 3.25rem;
-	justify-content: center;	
+	gap: 4rem 1.25rem;
+	justify-content: center;
 	margin: auto;
 	padding: 1rem;
-	width: 70rem;
+	max-width: 80rem;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .project-card {
-	width: auto;
-	max-width: 28rem;
+	flex-basis: calc(calc(1000px - 100%) * 999);
+	flex-grow: 1;
+	max-width: 18rem;
 	height: 25rem;
 	border-radius: 20px;
 	overflow: hidden;
 	text-align: center;
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .project-card a,
@@ -65,80 +65,36 @@
 	outline: none;
 }
 
-@media screen and (max-width: 375px) {
-	.portfolio-container {
-		padding: 1rem;
-	}
-
+@media screen and (min-width: 768px) {
 	.banner {
-		flex-direction: column;
-		padding: 2.5rem;
-	}
-
-	.projects-grid {
-		width: auto;
-	}
-
-	.portfolio-svg svg {
-		width: 18rem;
-		height: 10rem;
-	}
-
-	.bannerQuote {
-		font-size: 2.5rem;
-		text-align: center;
-	}
-
-	.bannerQuoteAuthor {
-		font-size: 1rem;
-	}
-
-	.portfolioSectionTitle {
-		font-size: 1.5rem;
-	}
-
-}
-
-@media screen and (max-width: 900px) and (min-width: 376px) {
-	
-	.portfolioSectionTitle {
-		font-size: 2rem;
-	}
-
-	.portfolio-svg svg {
-		width: 21rem;
-	}
-
-	.banner {
-		flex-direction: column;
+		flex-direction: row;
 		padding: 2.5rem;
 	}
 
 	.bannerQuote {
-		font-size: 3rem;
-		text-align: center;
-	}
-
-	.bannerQuoteAuthor {
 		font-size: 2rem;
+		text-align: right;
 	}
-
-	.projects-grid {
-		width: auto;
-	}
-
-	.project-card {
-		margin: auto;
-	}
-
 }
 
-@media screen and (min-width: 900px) and (max-width: 1024px) {
-	.projects-grid {
-		width: auto;
+@media screen and (min-width: 900px) {
+	.banner {
+		padding: 2.5rem 6rem;
 	}
 
-	.project-card {
-		margin: 0 4rem;
+	.portfolio-svg svg {
+		width: 20rem;
+		height: 20rem;
+	}
+
+	.projects-grid {
+		gap: 4rem 4rem;
+		padding: 2rem;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.banner {
+		padding: 2.5rem 12rem;
 	}
 }
