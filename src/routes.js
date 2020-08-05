@@ -1,30 +1,27 @@
-import IntroSection from './components/IntroSection/IntroSection';
-import AboutSection from './components/AboutSection/AboutSection';
-import WorkSection from './components/WorkSection/WorkSection';
-import PortfolioSection from './components/PortfolioSection/PortfolioSection';
+import { lazy } from 'react';
 
 export const routes = [
 	{
 		path: '/',
-		component: IntroSection,
+		component: lazy(() => import('./components/IntroSection/IntroSection')),
 		name: 'home',
 		access: true
 	},
 	{
 		path: '/about',
-		component: AboutSection,
+		component: lazy(() => import('./components/AboutSection/AboutSection')),
 		name: 'about',
 		access: true
 	},
 	{
 		path: '/work',
-		component: WorkSection,
+		component: lazy(() => import('./components/WorkSection/WorkSection')),
 		name: 'work',
 		access: true
 	},
 	{
 		path: '/portfolio',
-		component: PortfolioSection,
+		component: lazy(() => import('./components/PortfolioSection/PortfolioSection')),
 		name: 'portfolio',
 		access: true
 	}
