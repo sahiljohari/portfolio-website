@@ -10,23 +10,24 @@
 	--dark-theme-bg-color: #dddddd;
 
 	--intro-section-bg-color: rgba(234, 88, 79, 0.16);
-	--intro-section-accent-color: #ea584f;
+	--intro-section-accent-color: var(--primary-theme-accent-color);
 
 	--about-section-bg-color: var(--white);
 	--about-section-accent-color: #e98074;
 	--about-section-testimonial-bg-color: var(--white);
-	--about-section-testimonial-quote-color: rgba(234, 88, 79, 0.16);
+	--about-section-testimonial-quote-color: var(--intro-section-bg-color);
 
 	--work-section-bg-color: #fbfbfb;
 	--work-section-banner-color: var(--white);
-	--work-section-card-bg-color: #c7c7c7;
-	--work-section-accent-color: #ea584f;
+	--work-section-card-bg-color: var(--primary-theme-passive-text-color);
+	--work-section-accent-color: var(--primary-theme-accent-color);
 
-	--portfolio-section-bg-color: rgba(234, 88, 79, 0.16);
+	--portfolio-section-bg-color: var(--intro-section-bg-color);
 	--portfolio-section-banner-color: var(--white);
-	--portfolio-section-card-bg-color: #c7c7c7;
+	--portfolio-section-card-bg-color: var(--primary-theme-passive-text-color);
 	--portfolio-section-accent-color: #444053;
 	--portfolio-section-stroke-color: #e8e8e8;
+	--portfolio-section-dark-stroke-color: #b7b7b7;
 }
 
 .App {
