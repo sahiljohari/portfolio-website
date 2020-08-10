@@ -13,7 +13,7 @@ const NavBar = () => {
 	return (
 		<>
 			<HeaderNav drawerClickHandler={drawerToggleClickHandler} />
-			<SideDrawer show={sideDrawerOpen} />
+			<SideDrawer show={sideDrawerOpen} optionClick={backdropShowHandler} />
 			{sideDrawerOpen && <BackDrop click={backdropShowHandler} />}
 		</>
 	);

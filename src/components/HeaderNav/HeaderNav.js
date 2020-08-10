@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { routes } from '../../routes';
 import { logo } from './content';
 import './style.css';
@@ -16,9 +16,9 @@ const HeaderNav = ({ drawerClickHandler }) => {
 							.filter(nav => nav.access)
 							.map((nav, i) => (
 								<div className="nav__item" key={i}>
-									<Link to={nav.path}>
+									<NavLink to={nav.path} exact activeClassName="nav__item__active">
 										<p>{nav.name}</p>
-									</Link>
+									</NavLink>
 								</div>
 							))}
 					</div>

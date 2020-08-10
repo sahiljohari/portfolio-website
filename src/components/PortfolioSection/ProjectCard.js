@@ -13,9 +13,10 @@ const ProjectCard = ({ projectContent, className }) => {
 				<h4 className={styles.projectTitle}>{projectName}</h4>
 				<p className={styles.projectSummary}>{projectSummary}</p>
 			</div>
-			<a className={styles.buttonGithub} href={externalLink} target="_blank" rel="noopener noreferrer">
+			{externalLink && <a className={styles.buttonGithub} href={externalLink} target="_blank" rel="noopener noreferrer">
 				<i className={`fab fa-github ${styles.githubIcon}`}></i>
 			</a>
+}
 		</div>
 	);
 };

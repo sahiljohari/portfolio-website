@@ -3,12 +3,12 @@ import { NavLink } from 'react-router-dom';
 import { routes } from '../../routes';
 import './style.css';
 
-const SideDrawer = props => (
-	<nav className={props.show ? 'side-drawer open' : 'side-drawer'}>
+const SideDrawer = ({show, optionClick}) => (
+	<nav className={show ? 'side-drawer open' : 'side-drawer'}>
 		<div>
 			{routes.map((nav, i) => (
 				<div key={i}>
-					<NavLink to={nav.path}>{nav.name}</NavLink>
+					<NavLink to={nav.path} onClick={optionClick}>{nav.name}</NavLink>
 				</div>
 			))}
 		</div>
