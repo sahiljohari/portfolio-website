@@ -1,3 +1,3 @@
-# This site is under construction... (Bummer!!)
+### Portfolio Website using pure React
 
-To view how it looks so far, click [here](https://sahil-johari.netlify.com/)
+This is my portfolio website, completely redesigned and remade using React.js
