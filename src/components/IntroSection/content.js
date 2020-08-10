@@ -1,8 +1,7 @@
 export const content = {
-  greeting: "",
-  introText: "",
-  firstName: "Sahil ",
-  lastName: "Johari",
-  description: "Software engineer / Front-end Developer",
-  buttonTitle: "Download Resume",
+	greeting: '',
+	introText: "Hi, I'm ",
+	firstName: 'Sahil.',
+	description: 'I am a <span><b>Software Engineer</b></span> with sharp attention to detail.',
+	buttonTitle: 'Download Resume'
 };

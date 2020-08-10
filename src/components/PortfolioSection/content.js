@@ -1,81 +1,38 @@
 export const content = {
-  sectionTitle: "Work Experience",
-  workExperience: [
-    {
-      company: "Rivers Agile",
-      role: "Software Engineer",
-      period: "August 2019 - Present",
-      responsibilities:
-        "Working in an agile environment with over 48 successfully completed user stories so far, " +
-        "my role is to develop front end modules on React for smooth and aesthetically pleasing user experience " +
-        "including unit tests for UI components using Jest and Enzyme. " +
-        "I also collaborate with other developers from front-end, back-end, and UI/UX designers to create exciting and rewarding product features.",
-      tags: [
-        "React",
-        "Redux",
-        "SASS",
-        "Typescript",
-        "Node",
-        "Jest",
-        "Enzyme",
-        "Cypress",
-        "Ruby on rails",
-        "Git",
-      ],
-    },
-    {
-      company: "Capgemini Technology Services India Ltd.",
-      role: "Senior Analyst",
-      period: "June 2015 - June 2017",
-      responsibilities:
-        "Reduced the lead time by 80% for the customer via generating and distributing over 125 reports " +
-        "by developing an automation web application using .NET framework. " +
-        "Enhanced the user experience by migrating legacy front-end code to newer technologies such as jQuery and Bootstrap.",
-      tags: [
-        ".NET",
-        "C#",
-        "ASP.NET",
-        "HTML5/CSS3",
-        "JavaScript",
-        "jQuery",
-        "Bootstrap",
-        "Oracle PL-SQL",
-      ],
-    },
-  ],
-  projects: [
-    {
-      projectId: 1,
-      projectName: "Messenger App",
-      projectSummary:
-        "A simple chat application which allows over 10,000 users to chat in a shared space at once. The application uses React and Typescript in the front end, and Node paired with Socket-IO library for the server operations.",
-      externalLink: "https://github.com/sahiljohari/messenger-app",
-      thumbnail: "messenger-app.png",
-    },
-    {
-      projectId: 2,
-      projectName: "Game for Intelligent Simulated Military Opponents",
-      projectSummary:
-        "GISMO simulates a battlefield in which two rival forces compete to win. Using neuro-evolution, the tanks in the game determine their movement and direction of firing, evolving gradually to perform their tasks.",
-      externalLink: "https://github.com/sahiljohari/gismo",
-      thumbnail: "gismo.jpg",
-    },
-    {
-      projectId: 3,
-      projectName: "Playing Snake using Deep Reinforcement Learning",
-      projectSummary:
-        "Implemented a type of reinforcement learning algorithm called Q-learning to model an agent which plays the game of Snake.",
-      externalLink: "https://github.com/sahiljohari/thisthinglearns",
-      thumbnail: "snake.gif",
-    },
-    {
-      projectId: 4,
-      projectName:
-        "Partitioning Random Geometric Graphs into Bipartite Subgraphs",
-      projectSummary:
-        "Implemented an algorithm that models ad-hoc networks of wireless sensors of varying scale across a variety of geographic areas.",
-      externalLink: "https://github.com/sahiljohari/wsn",
-      thumbnail: "wsn.png",
-    },
-  ],
+	bannerQuote: '“Only those who risk going too far can possibly find out how far one can go.”',
+	bannerQuoteAuthor: '- T.S Eliot',
+	sectionTitle: 'Stuff made with love',
+	projects: [
+		{
+			projectId: 1,
+			projectName: 'Messenger App',
+			projectSummary:
+				'A simple chat application which allows over 10,000 users to chat in a shared space at once. The application uses React and Typescript in the front end, and Node paired with Socket-IO library for the server operations.',
+			externalLink: 'https://github.com/sahiljohari/messenger-app',
+			thumbnail: 'messenger-app.png'
+		},
+		{
+			projectId: 2,
+			projectName: 'G.I.S.M.O',
+			projectSummary:
+				'GISMO simulates a battlefield in which two rival forces compete to win. Using neuro-evolution, the tanks in the game determine their movement and direction of firing, evolving gradually to perform their tasks.',
+			externalLink: 'https://github.com/sahiljohari/gismo',
+			thumbnail: 'gismo.jpg'
+		},
+		{
+			projectId: 3,
+			projectName: 'Snake AI',
+			projectSummary: 'Implemented a type of reinforcement learning algorithm called Q-learning to model an agent which plays the game of Snake.',
+			externalLink: 'https://github.com/sahiljohari/thisthinglearns',
+			thumbnail: 'snake.gif'
+		},
+		{
+			projectId: 4,
+			projectName: 'Wireless Sensor Network',
+			projectSummary:
+				'Partitioning Random Geometric Graphs into Bipartite Subgraphs: Implemented an algorithm that models ad-hoc networks of wireless sensors of varying scale across a variety of geographic areas.',
+			externalLink: 'https://github.com/sahiljohari/wsn',
+			thumbnail: 'wsn.png'
+		}
+	]
 };
