@@ -33,6 +33,21 @@ export const content = {
 				'Partitioning Random Geometric Graphs into Bipartite Subgraphs: Implemented an algorithm that models ad-hoc networks of wireless sensors of varying scale across a variety of geographic areas.',
 			externalLink: 'https://github.com/sahiljohari/wsn',
 			thumbnail: 'wsn.png'
+		},
+		{
+			projectId: 5,
+			projectName: 'Portfolio Website v1',
+			projectSummary:
+				'Static site written in pure ReactJS to present myself to the internet.',
+			externalLink: 'https://github.com/sahiljohari/portfolio-website',
+			thumbnail: 'portfolio.png'
+		},
+		{
+			projectId: 6,
+			projectName: 'Wireless Sensor Network 2.0',
+			projectSummary:
+				'Recreating WSN using P5.js. Stay tuned!',
+			thumbnail: 'work-in-progress.png'
 		}
 	]
 };

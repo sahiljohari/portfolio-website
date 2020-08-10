@@ -49,9 +49,7 @@
 	transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
-.navbar__items div a:hover,
-.navbar__items div a:active,
-.navbar__items div a:focus {
+.navbar__items div a:hover {
 	color: var(--intro-section-accent-color);
 }
 
@@ -63,6 +61,10 @@
 
 .nav__item a p {
 	margin: 0 0 0 0.5rem;
+}
+
+.nav__item__active > p {
+	color: var(--intro-section-accent-color);
 }
 
 @media screen and (max-width: 620px) {
