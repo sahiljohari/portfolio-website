@@ -50,8 +50,9 @@
 	flex-basis: calc(calc(1000px - 100%) * 999);
 	flex-grow: 1;
 
+	position: relative;
 	max-width: 18rem;
-	height: 25rem;
+	height: auto;
 	margin: 0.5rem;
 	overflow: hidden;
 	text-align: center;

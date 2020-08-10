@@ -1,44 +1,58 @@
 .projectCardImgContainer {
-  position: relative;
-  height: 18rem;
-  overflow: hidden;
+	position: relative;
+	height: auto;
+	max-height: 18rem;
+	overflow: hidden;
 }
 
 .projectCardImg {
-  background-clip: padding-box;
-  position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 100%;
+	background-clip: padding-box;
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
 }
 
 .projectCardDescription {
-  border-top: 1px solid var(--portfolio-section-stroke-color);
-  padding-bottom: 0.5rem;
+	border-top: 1px solid var(--portfolio-section-stroke-color);
+	padding: 0 0.5rem 0.5rem;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.projectTitle {
+	margin: 1rem auto 0;
+}
+
+.projectSummary {
+	text-align: justify;
 }
 
 .buttonGithub,
 .buttonGithub:focus,
 .buttonGithub:visited {
-	border-radius: 30px;
-	color: var(--secondary-theme-text-color);
+	border-radius: 50%;
+	color: var(--portfolio-section-banner-color);
 	font-size: 0.85rem;
-	background: transparent;
+	background: var(--secondary-theme-text-color);
 	text-decoration: none;
 	margin: 0 5px;
 	padding: 0.5rem;
 	transition: 0.2s linear;
 	border: 1px solid var(--secondary-theme-text-color);
-}
 
-.buttonGithub:hover {
-  background-color: var(--secondary-theme-text-color);
-  color: var(--portfolio-section-banner-color);
+	position: absolute;
+	top: 0.5rem;
+	right: 0;
+
+	-webkit-box-shadow: -5px 7px 22px 0px rgba(0, 0, 0, 0.28);
+	-moz-box-shadow: -5px 7px 22px 0px rgba(0, 0, 0, 0.28);
+	box-shadow: -5px 7px 22px 0px rgba(0, 0, 0, 0.28);
 }
 
 .githubIcon {
-  font-size: 1.25rem;
-  margin-right: 0.25rem;
+	font-size: 1.25rem;
 }

@@ -95,6 +95,10 @@ hr {
 	color: var(--primary-theme-color);
 }
 
+.responsibilities > p > span {
+	color: var(--work-section-accent-color);
+}
+
 @media screen and (min-width: 425px) {
 	.work-svg svg {
 		width: 8rem;

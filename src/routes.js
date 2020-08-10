@@ -8,12 +8,6 @@ export const routes = [
 		access: true
 	},
 	{
-		path: '/about',
-		component: lazy(() => import('./components/AboutSection/AboutSection')),
-		name: 'about',
-		access: true
-	},
-	{
 		path: '/work',
 		component: lazy(() => import('./components/WorkSection/WorkSection')),
 		name: 'work',
@@ -23,6 +17,12 @@ export const routes = [
 		path: '/portfolio',
 		component: lazy(() => import('./components/PortfolioSection/PortfolioSection')),
 		name: 'portfolio',
+		access: true
+	},
+	{
+		path: '/about',
+		component: lazy(() => import('./components/AboutSection/AboutSection')),
+		name: 'about',
 		access: true
 	}
 ];
