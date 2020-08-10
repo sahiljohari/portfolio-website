@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { routes } from '../../routes';
 import './style.css';
 
@@ -7,7 +8,7 @@ const SideDrawer = props => (
 		<div>
 			{routes.map((nav, i) => (
 				<div key={i}>
-					<a href={nav.path}>{nav.name}</a>
+					<NavLink to={nav.path}>{nav.name}</NavLink>
 				</div>
 			))}
 		</div>
