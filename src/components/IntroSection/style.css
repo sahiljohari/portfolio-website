@@ -1,113 +1,114 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
 
 .intro {
-	display: flex;
-	flex-direction: column;
-	margin: 0;
-	padding: 3rem 1rem;
-	color: var(--secondary-theme-text-color);
-	background-color: var(--intro-section-bg-color);
-	height: auto;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 2.5rem 0;
+  padding: 3rem 1rem;
+  color: var(--secondary-theme-text-color);
+  background-color: var(--intro-section-bg-color);
+  height: auto;
+  text-align: center;
 }
 
 .intro-svg svg {
-	width: 18rem;
-	height: 20rem;
+  width: 18rem;
+  height: 20rem;
 }
 
 .left-column {
-	margin: auto 2rem;
+  margin: auto 2rem;
 }
 
 .intro-title {
-	display: flex;
-	flex-direction: column;
-	margin: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
 }
 
 .greeting {
-	font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .intro-text {
-	font-size: 3rem;
-	color: var(--primary-theme-color);
+  font-size: 3rem;
+  color: var(--primary-theme-color);
 }
 
 .intro-text span {
-	color: var(--intro-section-accent-color);
+  color: var(--intro-section-accent-color);
 }
 
 .intro-description {
-	margin: 5px;
-	font-size: 2.75rem;
-	padding: 0;
-	color: var(--primary-theme-color);
+  margin: 5px;
+  font-size: 2.75rem;
+  padding: 0;
+  color: var(--primary-theme-color);
 }
 
 .intro-description span {
-	color: var(--intro-section-accent-color);
+  color: var(--intro-section-accent-color);
 }
 
 .buttons {
-	width: 100%;
-	margin: 1.5rem 0;
+  width: 100%;
+  margin: 1.5rem 0;
 }
 
 .button-download,
 .button-download:focus,
 .button-download:visited {
-	border-radius: 30px;
-	color: var(--primary-theme-color);
-	border: 1px solid var(--primary-theme-color);
-	font-size: 0.75rem;
-	background: transparent;
-	text-decoration: none;
-	margin: auto 5px;
-	padding: 0.5rem;
-	transition: 0.2s linear;
-	height: 1rem;
-	width: 6rem;
+  border-radius: 30px;
+  color: var(--primary-theme-color);
+  border: 1px solid var(--primary-theme-color);
+  font-size: 0.75rem;
+  background: transparent;
+  text-decoration: none;
+  margin: auto 5px;
+  padding: 0.5rem;
+  transition: 0.2s linear;
+  height: 1rem;
+  width: 6rem;
 }
 
 .button-download:hover {
-	color: var(--intro-section-accent-color);
-	border-color: var(--intro-section-accent-color);
+  color: var(--intro-section-accent-color);
+  border-color: var(--intro-section-accent-color);
 }
 
 @media screen and (min-width: 1000px) {
-	.intro {
-		height: auto;
-		flex-direction: row-reverse;
-		padding: 3rem 4rem;
-		text-align: left;
-	}
+  .intro {
+    height: auto;
+    flex-direction: row-reverse;
+    margin: 0 0 5rem 0;
+    padding: 3rem 4rem;
+    text-align: left;
+  }
 
-	.intro-svg svg {
-		width: 32rem;
-		height: 24rem;
-	}
+  .intro-svg svg {
+    width: 32rem;
+    height: 24rem;
+  }
 
-	.intro-text,
-	.intro-description,
-	.greeting {
-		font-size: 4rem;
-	}
+  .intro-text,
+  .intro-description,
+  .greeting {
+    font-size: 4rem;
+  }
 
-	.buttons {
-		display: inline-flex;
-		margin: 2.5rem 0;
-	}
+  .buttons {
+    display: inline-flex;
+    margin: 2.5rem 0;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-	.intro-svg {
-		margin-right: 6rem;
-	}
+  .intro-svg {
+    margin-right: 6rem;
+  }
 
-	.intro-svg svg {
-		width: 32rem;
-		height: 30rem;
-	}
+  .intro-svg svg {
+    width: 32rem;
+    height: 30rem;
+  }
 }

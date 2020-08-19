@@ -1,167 +1,175 @@
 .work {
-	display: flex;
-	flex-direction: column;
-	margin: 0;
-	height: auto;
-	text-align: center;
-	background-color: var(--work-section-bg-color);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: auto;
+  text-align: center;
+  background-color: var(--work-section-bg-color);
 }
 
 .work-banner {
-	display: flex;
-	flex-direction: column;
-	padding: 3rem 1rem;
-	background-color: var(--work-section-banner-color);
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem;
+  background-color: var(--work-section-banner-color);
 }
 
 .left-side {
-	margin: auto 1rem;
+  margin: auto 1rem;
 }
 
 .left-side > div {
-	font-weight: bold;
-	font-size: 2.5rem;
-	line-height: 43px;
-	text-transform: uppercase;
-	text-align: center;
-	color: var(--work-section-accent-color);
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 43px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--work-section-accent-color);
 }
 
 .work-svg svg {
-	width: 14rem;
-	height: 14rem;
+  width: 14rem;
+  height: 14rem;
 }
 
 .work-content {
-	display: flex;
-	flex-direction: column;
-	padding: 3.5rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 3.5rem 0;
 }
 
 .work-section-title {
-	text-align: center;
-	font-size: 1rem;
-	color: var(--primary-theme-color);
+  text-align: center;
+  font-size: 1rem;
+  color: var(--primary-theme-color);
 }
 
 /* Work Card styles */
 
 hr {
-	border: 0.25px solid var(--work-section-accent-color);
-	width: 10%;
+  border: 0.25px solid var(--work-section-accent-color);
+  width: 10%;
 }
 
 .work-card {
-	padding: 1.25rem;
+  padding: 1.25rem;
 }
 
 .company-logo > img {
-	width: 8rem;
-	height: 8rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 .company-title {
-	margin: 1rem 0;
-	color: var(--work-section-accent-color);
-	font-size: 1.25rem;
-	font-weight: 600;
+  margin: 1rem 0;
+  color: var(--work-section-accent-color);
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 .work-role,
 .company-location {
-	font-size: 0.85rem;
-	margin: 0.5rem 0;
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
 }
 
 .tags {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-	margin: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  margin: 1rem 0;
 }
 
 .tag {
-	border: 1px solid var(--primary-theme-passive-text-color);
-	border-radius: 1rem;
-	margin: 0.25rem;
-	text-align: center;
-	width: auto;
-	word-wrap: normal;
+  border: 1px solid var(--primary-theme-passive-text-color);
+  border-radius: 1rem;
+  margin: 0.25rem;
+  text-align: center;
+  width: auto;
+  word-wrap: normal;
 }
 
 .responsibilities {
-	text-align: justify;
-	margin: 1rem 0;
-	line-height: 1.6rem;
-	color: var(--primary-theme-color);
+  text-align: justify;
+  margin: 1rem 0;
+  line-height: 1.6rem;
+  color: var(--primary-theme-color);
 }
 
 .responsibilities > p > span {
-	color: var(--work-section-accent-color);
+  color: var(--work-section-accent-color);
+}
+
+.responsibilities > p > span > b > a,
+.responsibilities > p > span > b > a:hover,
+.responsibilities > p > span > b > a:visited,
+.responsibilities > p > span > b > a:focus {
+  text-decoration: none;
+  color: var(--work-section-accent-color);
 }
 
 @media screen and (min-width: 425px) {
-	.work-svg svg {
-		width: 8rem;
-		height: 8rem;
-	}
+  .work-svg svg {
+    width: 8rem;
+    height: 8rem;
+  }
 
-	.company-logo > img {
-		width: 10rem;
-		height: 10rem;
-	}
+  .company-logo > img {
+    width: 10rem;
+    height: 10rem;
+  }
 
-	.work-section-title {
-		font-size: 1.5rem;
-	}
+  .work-section-title {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
-	.work-banner {
-		flex-direction: row-reverse;
-		place-content: space-around;
-		padding: 3rem 5rem;
-	}
+  .work-banner {
+    flex-direction: row-reverse;
+    place-content: space-around;
+    padding: 3rem 5rem;
+  }
 
-	.work-svg svg {
-		width: 20rem;
-		height: 20rem;
-	}
+  .work-svg svg {
+    width: 20rem;
+    height: 20rem;
+  }
 
-	.left-side > div {
-		font-size: 3.5rem;
-		line-height: 86px;
-	}
+  .left-side > div {
+    font-size: 3.5rem;
+    line-height: 86px;
+  }
 
-	.work-card {
-		padding: 4rem 6rem;
-	}
+  .work-card {
+    padding: 4rem 6rem;
+  }
 }
 
 @media screen and (min-width: 1000px) {
-	.work-banner {
-		padding: 3rem 10rem;
-	}
+  .work-banner {
+    padding: 3rem 10rem;
+  }
 
-	.work-svg svg {
-		width: 24rem;
-		height: 24rem;
-	}
+  .work-svg svg {
+    width: 24rem;
+    height: 24rem;
+  }
 
-	.left-side > div {
-		font-size: 4.5rem;
-	}
+  .left-side > div {
+    font-size: 4.5rem;
+  }
 
-	.work-card {
-		padding: 4rem 10rem;
-	}
+  .work-card {
+    padding: 4rem 10rem;
+  }
 
-	.responsibilities {
-		font-size: 1rem;
-	}
+  .responsibilities {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-	.work-card {
-		padding: 4rem 12rem;
-	}
+  .work-card {
+    padding: 4rem 12rem;
+  }
 }
