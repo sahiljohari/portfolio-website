@@ -52,11 +52,5 @@ export const content = {
       externalLink: "https://github.com/sahiljohari/portfolio-website",
       thumbnail: "portfolio.png",
     },
-    {
-      projectId: 6,
-      projectName: "Wireless Sensor Network 2.0",
-      projectSummary: "Recreating WSN using P5.js. Stay tuned!",
-      thumbnail: "work-in-progress.png",
-    },
   ],
 };

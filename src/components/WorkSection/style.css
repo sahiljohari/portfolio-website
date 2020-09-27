@@ -35,6 +35,7 @@
 .work-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 3.5rem 0;
 }
 
@@ -53,6 +54,7 @@ hr {
 
 .work-card {
   padding: 1.25rem;
+  max-width: 48rem;
 }
 
 .company-logo > img {
@@ -63,13 +65,13 @@ hr {
 .company-title {
   margin: 1rem 0;
   color: var(--work-section-accent-color);
-  font-size: 1.25rem;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
   font-weight: 600;
 }
 
 .work-role,
 .company-location {
-  font-size: 0.85rem;
+  font-size: clamp(0.85rem, 2vw, 1.125rem);
   margin: 0.5rem 0;
 }
 
@@ -91,7 +93,7 @@ hr {
 .responsibilities {
   text-align: justify;
   margin: 1rem 0;
-  line-height: 1.6rem;
+  line-height: 2;
   color: var(--primary-theme-color);
 }
 
@@ -164,7 +166,7 @@ hr {
   }
 
   .responsibilities {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 }
 
