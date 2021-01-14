@@ -33,15 +33,10 @@
 
 .content-text {
   color: var(--primary-theme-color);
-  font-size: clamp(0.9rem, 2vw, 1.25rem);
+  font-size: clamp(0.9rem, 2vw, 1.125rem);
   padding: 0.5rem;
   text-align: justify;
   line-height: 2;
-}
-
-.content-text a {
-  color: var(--about-section-accent-color);
-  text-decoration: none;
 }
 
 .extended-content {
@@ -50,10 +45,16 @@
   max-width: 60rem;
   margin: 0 auto;
   color: var(--primary-theme-color);
-  font-size: clamp(0.9rem, 2vw, 1.25rem);
+  font-size: clamp(0.9rem, 2vw, 1.125rem);
   padding: 0.5rem;
   text-align: justify;
   line-height: 2;
+}
+
+.content-text a,
+.extended-content a {
+  color: var(--about-section-accent-color);
+  text-decoration: none;
 }
 
 .tech-list ul {
@@ -68,6 +69,7 @@
 .tech-list ul li {
   position: relative;
   padding-left: 1rem;
+  font-size: clamp(0.8rem, 2vw, 1rem);
 }
 
 .tech-list ul li::before {
