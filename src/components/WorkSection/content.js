@@ -1,19 +1,19 @@
 export const content = {
   bannerText:
     "<div>simple.</div><div>elegant.</div><div>effective.</div><div>rewarding.</div>",
-  sectionTitle: "Here's what I have done so far",
+  sectionTitle: "My professional journey",
   workExperience: [
     {
       company: "Rivers Agile",
       logo: "assets/images/ra-logo.png",
       role: "Software Engineer",
       period: " August 2019 - Present",
-      location: "Pittsburgh, PA",
+      location: "Pittsburgh, Pennsylvania, U.S.A.",
       responsibilities:
-        "<p>Right on Day One at Rivers Agile, I joined a diverse team of talented and experienced developers on a large scale project with <span><b><a href='https://www.draco.res.ibm.com/' target='_blank' rel='noopener noreferrer'>IBM Pittsburgh Lab</a></b></span>. Our goal was to develop and work toward the release of an application called <b><i>Discovery Tooling</i></b>, which is an online tool in <b>IBM Watson™ Discovery</b> to help the users quickly set up an instance of the service and populate it with data.</p>" +
-        "<p>My role was to build fully functional front-end modules using <i>React</i> alongwith collaborating with UX designers and back-end engineers to bring product features to life. My most significant contribution to the vision of this product was building the conversational feature (Chat Bot) using <i>Discovery API</i> to simplify the operational processes of customers by providing intuitive responses to their user queries.</p>" +
-        "<p>I learned a great deal about writing clean, maintainable, and scalable code on this project. I also made major contributions toward instituting new standards of writing automated integration tests using the Cypress framework. Ocassionally, I participated in company events such as backlog grooming, brainstorming sessions, and several other fun activities focusing on business processes.</p>" +
-        "<p>Currently, I am working with <span><b><a href='https://www.ficrowd.net/' target='_blank' rel='noopener noreferrer'>FiCrowd</a></b></span>, who provide a white label, crowdfunding solution for banks and credit unions. My role is to develop and architect user interaction for their web application that provides high performance and scalable crowdfunding solutions via its innovative features.</p>",
+      "<p>As a Software Engineer, I work with businesses/clients in a diverse team of talented and experienced engineers to develop and deliver high performance, secure, and scalable software products and solutions in a fast-paced agile environment. During my tenure here, I have worked on three primary projects: a user interface for enterprise search, a crowdfunding platform for community banks to release “white labeled”, and an R&D tool to manage workforce skills and certifications.</p>" +
+      "<p>My responsibilities include but are not limited to <span>streamlining front-end web development effort and code reusability</span> by leveraging the strengths of front-end frameworks like <i>React</i> and <i>Angular</i>; organizing code into robust and maintainable UI components for rapid development. I further excel in developing software with engaging user experience and modern look-and-feel across multiple platforms (web, mobile), and have worked extensively with modern frontend technologies like <span>React, Redux, Typescript, SASS, and NodeJS</span>.</p>" +
+      "<p>Alongside developing quality software, my focus is always on continuous improvement and optimization. Currently, I am working on a real-time graphical display of autonomous flight maneuvers performed by drone helicopters where I <span>improved the memory consumption by 50%</span> to facilitate smoother and optimized 3D rendering. Likewise, in one of my previous assignments, I achieved an <span>overall optimization of 70% in the application build time and 95% reduction in lines of code per feature test</span> by developing a wrapper API around Cypress framework to simplify writing integration and end-to-end tests.  </p>" +
+      "<p>Apart from my primary duties, I actively participate in company events such as backlog grooming, brainstorming sessions, tech talks, and several other fun activities focusing on business processes and knowledge sharing.</p>",
       tags: [
         "React",
         "Redux",
@@ -36,9 +36,8 @@ export const content = {
       period: " June 2015 - June 2017",
       location: "Bangalore, Karnataka, India",
       responsibilities:
-        "<p>I landed my first job at Capgemini right after completing my undergraduate degree, where I joined as a Software Engineer in the .NET domain. After completing a 3 months training program in .NET framework, I joined a small team of 8 developers and worked with <span><b><a href='https://www.jetstar.com/us/en/about-us' target='_blank' rel='noopener noreferrer'>Jetstar Airways Pty Ltd.</a></b></span></p>" +
-        "<p>Initially, my role was to perform software requirement analysis and develop front end UI of a web application that was intended to provide project management capability internally. I gradually began writing end-to-end code using ASP.NET, C#, and Oracle PL-SQL in collaboration with other senior developers in my team. A major portion of my time with the team was spent in developing an automation tool on web platform which was capable of generating MS Excel and PDF reports using production data alongwith embedding data visualization. Through iterative enhancements, I achieved significant performance gain in the application which resulted in a <b>reduction of lead time by 80%</b> for Jetstar's critical internal procedures.</p>" +
-        "<p>I also enjoyed working on several other assignments involving code refactoring and revamping user interfaces of other legacy applications that our client had been using for more than 5 years. Using jQuery and Bootstrap, I improved the aesthetics and user experience of these applications significantly, making them responsive and exciting to interact with. I gained immense exposure to the software industry in this job and learned some of the vital skills that a software professional must possess, which gave me a solid foundation as a software engineer.</p>",
+      "<p>Beginning my career as a Software Engineer, I worked here on 4 large scale web application products and tools for our clients from the airlines industry to support and enhance their flight operations and aircraft maintenance processes. My responsibilities included <span>full-stack development of product features, application deployment, and monitoring application health</span>. I also <span>redesigned and implemented UI for 2 legacy web applications</span> to provide modern aesthetics and improved user experience.</p>" +
+      "<p>As a Senior Analyst, I made significant contributions to the application products in terms of improving their quality and efficiency. Leveraging the strengths of the .NET framework, I developed an automation tool on a web platform which could generate and distribute over 125 analysis reports at once thereby <span>reducing the aircraft inspection and maintenance time by 80%</span>. In addition, I also worked on a defect tracking application which resulted in a <span>10% reduction in the application testing time</span>. I produced an award-winning web application to track the progress of over 20 projects in a business unit for which I received the <span>Best Performer of the Quarter</span> award.</p>",      
       tags: [
         ".NET",
         "C#",

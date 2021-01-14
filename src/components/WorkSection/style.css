@@ -57,6 +57,12 @@ hr {
   max-width: 48rem;
 }
 
+.word-card-head {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .company-logo > img {
   width: 8rem;
   height: 8rem;
@@ -140,6 +146,15 @@ hr {
   .left-side > div {
     font-size: 3.5rem;
     line-height: 86px;
+  }
+
+  .word-card-head {
+    flex-direction: row;
+  }
+
+  .work-card-head-body {
+    text-align: left;
+    margin: auto 1rem;
   }
 
   .work-card {
