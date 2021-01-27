@@ -3,7 +3,7 @@
 .intro {
   display: flex;
   flex-direction: column;
-  margin: 0 0 2.5rem 0;
+  margin: 0 0 1.75rem 0;
   padding: 3rem 1rem;
   color: var(--secondary-theme-text-color);
   background-color: var(--intro-section-bg-color);
@@ -80,7 +80,6 @@
   .intro {
     height: auto;
     flex-direction: row-reverse;
-    margin: 0 0 5rem 0;
     padding: 3rem 4rem;
     text-align: left;
   }

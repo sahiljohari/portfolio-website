@@ -1,14 +1,11 @@
 import React from "react";
 
 const WorkCard = ({ workData }) => {
-  const { company, role, period, location, logo, responsibilities } = workData;
+  const { company, role, period, location, responsibilities } = workData;
 
   return (
     <div className="work-card">
       <div className="word-card-head">
-        <div className="company-logo">
-          <img src={logo} alt={company} />
-        </div>
         <div className="work-card-head-body">
           <div className="company-title">{company}</div>
           <div className="work-role">
