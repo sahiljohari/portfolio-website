@@ -52,5 +52,13 @@ export const content = {
       externalLink: "https://github.com/sahiljohari/portfolio-website",
       thumbnail: "portfolio.png",
     },
+    {
+      projectId: 6,
+      projectName: "Document Organizer",
+      projectSummary:
+        "Currently in-progress. This is a tracking application for all your important documents such as IDs, travel docs, and financial docs. Stay tuned!",
+      externalLink: "https://github.com/sahiljohari/document-organizer",
+      thumbnail: "work-in-progress.png",
+    },
   ],
 };

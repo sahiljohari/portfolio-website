@@ -1,108 +1,108 @@
 .portfolio-container {
-	margin: 0;
-	height: auto;
+  margin: 0;
+  height: auto;
 }
 
 .banner {
-	background-color: var(--portfolio-section-bg-color);
-	color: var(--portfolio-section-accent-color);
-	display: flex;
-	flex-direction: column;
-	place-content: center;
-	align-items: center;
-	padding: 1rem;
+  background-color: var(--portfolio-section-bg-color);
+  color: var(--portfolio-section-accent-color);
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
 .portfolio-svg svg {
-	width: 15rem;
-	height: 15rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .bannerQuote {
-	font-size: 1.5rem;
-	font-weight: bold;
-	text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 .bannerQuoteAuthor {
-	font-size: 1rem;
-	margin-top: 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
 }
 
 .portfolioSectionTitle {
-	text-align: center;
-	font-size: 1.5rem;
-	font-weight: bold;
-	color: var(--primary-theme-color);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: var(--primary-theme-color);
 }
 
 .projects-grid {
-	position: relative;
-	justify-content: center;
-	margin: auto;
-	padding: 1rem;
-	max-width: 60rem;
-	display: flex;
-	flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  margin: auto;
+  padding: 1rem;
+  max-width: 60rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-card {
-	flex-basis: calc(calc(1000px - 100%) * 999);
-	flex-grow: 1;
+  flex-basis: calc(calc(1000px - 100%) * 999);
+  flex-grow: 1;
 
-	position: relative;
-	max-width: 18rem;
-	height: auto;
-	margin: 0.5rem;
-	overflow: hidden;
-	text-align: center;
-	border: 1px solid var(--portfolio-section-dark-stroke-color);
+  position: relative;
+  max-width: 18rem;
+  height: auto;
+  margin: 0.5rem;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid var(--portfolio-section-dark-stroke-color);
 }
 
 .project-card a,
 .project-card a:visited,
 .project-card a:focus {
-	text-decoration: none;
-	outline: none;
+  text-decoration: none;
+  outline: none;
 }
 
 @media screen and (min-width: 768px) {
-	.banner {
-		flex-direction: row;
-		padding: 2.5rem;
-	}
+  .banner {
+    flex-direction: row;
+    padding: 2.5rem;
+  }
 
-	.bannerQuote {
-		font-size: 2rem;
-		text-align: right;
-	}
+  .bannerQuote {
+    font-size: 2rem;
+    text-align: right;
+  }
 }
 
 @media screen and (min-width: 900px) {
-	.banner {
-		padding: 2.5rem 6rem;
-	}
+  .banner {
+    padding: 2.5rem 6rem;
+  }
 
-	.portfolio-svg svg {
-		width: 28rem;
-		height: 28rem;
-	}
+  .portfolio-svg svg {
+    width: 28rem;
+    height: 28rem;
+  }
 
-	.bannerQuote {
-		font-size: 2.5rem;
-	}
+  .bannerQuote {
+    font-size: 2.5rem;
+  }
 
-	.projects-grid {
-		padding: 2rem;
-	}
+  .projects-grid {
+    padding: 2rem;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-	.banner {
-		padding: 2.5rem 12rem;
-	}
+  .banner {
+    padding: 2.5rem 12rem;
+  }
 
-	.bannerQuote {
-		font-size: 3.5rem;
-	}
+  .bannerQuote {
+    font-size: 3.5rem;
+  }
 }
