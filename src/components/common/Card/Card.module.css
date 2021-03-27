@@ -51,6 +51,13 @@
   text-align: left;
 }
 
+.externalLinkContainer {
+  display: flex;
+  position: absolute;
+  top: 0.5rem;
+  right: 0;
+}
+
 .externalLinkBtn,
 .externalLinkBtn:focus,
 .externalLinkBtn:visited {
@@ -63,10 +70,6 @@
   padding: 0.5rem;
   transition: 0.2s linear;
   border: 1px solid #bbbbbb;
-
-  position: absolute;
-  top: 0.5rem;
-  right: 0;
 
   -webkit-box-shadow: -5px 7px 22px 0px rgba(0, 0, 0, 0.28);
   -moz-box-shadow: -5px 7px 22px 0px rgba(0, 0, 0, 0.28);
