@@ -2,7 +2,7 @@ export const content = {
   bannerQuote:
     "“Only those who risk going too far can possibly find out how far one can go.”",
   bannerQuoteAuthor: "- T.S Eliot",
-  sectionTitle: "Stuff made with love",
+  sectionTitle: "My spare time looks like...",
   projects: [
     {
       projectId: 0,
