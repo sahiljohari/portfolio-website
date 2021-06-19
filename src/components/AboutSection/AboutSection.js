@@ -8,7 +8,7 @@ const AboutSection = () => (
       <div className="picture-frame">
         <img
           className="picture"
-          src="assets/images/me.png"
+          src="assets/images/new_me.jpeg"
           alt="Sahil Johari"
         />
       </div>

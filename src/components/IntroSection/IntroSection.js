@@ -4,6 +4,7 @@ import { content } from "./content";
 import "./style.css";
 import SocialLinks from "../SocialLinks/SocialLinks";
 import Testimonials from "../Testimonials/Testimonials";
+import AboutSection from "../AboutSection/AboutSection";
 
 const IntroSection = () => {
   return (
@@ -24,17 +25,23 @@ const IntroSection = () => {
           ></div>
           <div className="buttons">
             <SocialLinks />
-            <a
-              href="assets/resume.pdf"
-              target="_blank"
+            <button
+              onClick={() =>
+                window.open(
+                  "assets/resume.pdf",
+                  "_blank",
+                  "noopener noreferrer"
+                )
+              }
               className="button-download"
-              rel="noopener noreferrer"
             >
               {content.buttonTitle}
-            </a>
+              <i className="fas fa-external-link-alt"></i>
+            </button>
           </div>
         </div>
       </div>
+      <AboutSection />
       <Testimonials />
     </>
   );

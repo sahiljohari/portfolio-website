@@ -1,9 +1,9 @@
-export const sectionTitle = "What my co-workers are saying...";
+export const sectionTitle = "People I have worked with say...";
 export const content = [
   {
     id: 1,
     name: "Dave Beshero",
-    profession: "UX Lead at IBM",
+    profession: "Sr. Software Engineer at LendingHome",
     profile: "https://www.linkedin.com/in/dave-beshero-8b277b52/",
     image: "assets/images/dave-beshero.jfif",
     highlight:
@@ -12,7 +12,7 @@ export const content = [
   {
     id: 2,
     name: "Jeremy Burton",
-    profession: "Sr. UX Designer at IBM",
+    profession: "Lead UX Writer at Mural",
     profile: "https://www.linkedin.com/in/jeremygburton/",
     image: "assets/images/jeremy-burton.jfif",
     highlight:
@@ -21,7 +21,7 @@ export const content = [
   {
     id: 3,
     name: "Nick Mele",
-    profession: "Software Engineer at IBM",
+    profession: "Sr. Software Engineer at LendingHome",
     profile: "https://www.linkedin.com/in/nick-mele/",
     image: "assets/images/nick-mele.jpg",
     highlight:
