@@ -1,23 +1,17 @@
 import React from "react";
 
 const WorkCard = ({ workData }) => {
-  const { company, role, period, location, responsibilities } = workData;
+  const [year, content] = workData;
 
   return (
     <div className="work-card">
-      <div className="word-card-head">
-        <div className="work-card-head-body">
-          <div className="company-title">{company}</div>
-          <div className="work-role">
-            {role},{period}
-          </div>
-          <div className="company-location">{location}</div>
+      <h2>{year}</h2>
+      {content.map(({ title, description }) => (
+        <div key={title}>
+          <h3>{title}</h3>
+          <p>{description}</p>
         </div>
-      </div>
-      <div
-        className="responsibilities"
-        dangerouslySetInnerHTML={{ __html: responsibilities }}
-      ></div>
+      ))}
     </div>
   );
 };

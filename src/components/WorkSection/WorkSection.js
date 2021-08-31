@@ -9,12 +9,14 @@ const WorkSection = () => {
     <div className="work">
       <div className="work-content">
         <h2 className="work-section-title">{sectionTitle}</h2>
-        {workExperience.map((exp, i) => (
-          <Fragment key={i}>
-            <WorkCard workData={exp} />
-            {i !== workExperience.length - 1 && <hr />}
-          </Fragment>
-        ))}
+        {Object.entries(workExperience)
+          .sort((a, b) => b[0] - a[0])
+          .map((exp, i) => (
+            <Fragment key={i}>
+              <WorkCard workData={exp} />
+              {i !== workExperience.length - 1 && <hr />}
+            </Fragment>
+          ))}
       </div>
     </div>
   );

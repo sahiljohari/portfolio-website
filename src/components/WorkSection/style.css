@@ -56,6 +56,15 @@ hr {
 .work-card {
   padding: 1.25rem;
   max-width: 48rem;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.work-card > h2 {
+  color: var(--work-section-accent-color);
 }
 
 .word-card-head {
