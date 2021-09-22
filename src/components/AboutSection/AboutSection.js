@@ -21,14 +21,6 @@ const AboutSection = () => (
       <div
         dangerouslySetInnerHTML={{ __html: content.extendedAboutText }}
       ></div>
-      <p>{content.technologies.titleText}</p>
-      <div className="tech-list">
-        <ul>
-          {content.technologies.techStack.map((t, i) => (
-            <li key={i}>{t}</li>
-          ))}
-        </ul>
-      </div>
     </div>
   </div>
 );

@@ -1,6 +1,15 @@
 export const sectionTitle = "People I have worked with say...";
 export const content = [
   {
+    id: 0,
+    name: "Chris Boujoukos",
+    profession: "Software Engineer at Arcadia",
+    profile: "https://www.linkedin.com/in/cboujoukos/",
+    image: "assets/images/chris-b.jfif",
+    highlight:
+      "Sahil is a truly gifted engineer! He is an extremely adaptable engineer, with a keen ability to pick up new code bases, technologies, and patterns with ease.",
+  },
+  {
     id: 1,
     name: "Dave Beshero",
     profession: "Sr. Software Engineer at LendingHome",
@@ -40,19 +49,10 @@ export const content = [
   {
     id: 5,
     name: "Savita Nagaraj",
-    profession: "Staff Web Test Engineer at ZOLL Medical Corporation",
+    profession: "Lead QA Engineer at Noom, Inc.",
     profile: "https://www.linkedin.com/in/savitanagaraj/",
     image: "assets/images/savita-nagaraj.jfif",
     highlight:
       "Sahil is a great team player and has many a time helped me understand so many JavaScript concepts and in a way has also mentored me while working together on a few assignments.",
-  },
-  {
-    id: 6,
-    name: "Alexa Taylor",
-    profession: "Sr. Associate Director - Southern Methodist University",
-    profile: "https://www.linkedin.com/in/alexataylor/",
-    image: "assets/images/alexa-taylor.jpg",
-    highlight:
-      "Sahil was dependable, careful, and always willing to work when needed. He will make a great addition to any team!",
   },
 ];
