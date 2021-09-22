@@ -7,21 +7,24 @@ export const content = {
       {
         title: "Joined Highmark Health as Software Engineer",
         description:
-          "Very excited to join the Highmark team and help in providing the best healthcare solutions.",
+          "Very excited to join the Highmark team and help in providing remarkable healthcare experiences and solutions.",
       },
       {
         title: "Created ExpiryMinder",
-        description: "",
+        description:
+          "Always wanted to build a tool that helps me track important expiry dates. Finally, ExpiryMinder was born!",
       },
     ],
     2020: [
       {
         title: "Redesigned my portfolio website using React.js",
-        description: "",
+        description:
+          "From plain-old HTML-CSS-JS to hot and elegant React.js, the transition was mesmerizing!",
       },
       {
         title: "Built an autonomous drone web UI",
-        description: "",
+        description:
+          "Part of a project for one of my clients, I explored 3D drawing in browser and created a real-time simulation of a drone's POV using Three.js.",
       },
     ],
     2019: [
@@ -32,7 +35,8 @@ export const content = {
       },
       {
         title: "Moved to Pittsburgh, Pennsylvania",
-        description: "",
+        description:
+          "A sad but pivotal event in my life. Leaving Dallas was not easy...",
       },
       {
         title: "Graduated with a Masters Degree",

@@ -7,7 +7,7 @@ const WorkCard = ({ workData }) => {
     <div className="work-card">
       <h2>{year}</h2>
       {content.map(({ title, description }) => (
-        <div key={title}>
+        <div className="work-card-content" key={title}>
           <h3>{title}</h3>
           <p>{description}</p>
         </div>
