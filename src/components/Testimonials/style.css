@@ -116,7 +116,7 @@ q.highlight::after,
 
   .testimonialCard {
     flex-direction: row-reverse;
-    max-width: fit-content;
+    max-width: 100%;
     border: none;
   }
 
