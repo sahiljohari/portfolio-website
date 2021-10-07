@@ -10,7 +10,7 @@ export const routes = [
   {
     path: "/work",
     component: lazy(() => import("./components/WorkSection/WorkSection")),
-    name: "work",
+    name: "timeline",
     access: true,
   },
   {

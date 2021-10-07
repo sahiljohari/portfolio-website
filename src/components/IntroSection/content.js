@@ -3,6 +3,6 @@ export const content = {
   introText: "Hi, I'm ",
   firstName: "Sahil.",
   description:
-    "I am a <span><b>Software Engineer</b></span> with sharp attention to detail.",
-  buttonTitle: "View Resume  ",
+    "I am a <span>Software Engineer</span> by profession and an artist by passion. Known for my sharp attention to detail and simplification skills, I love to bring astonishing ideas to life. You are looking at one right now!",
+  buttonTitle: "Resume",
 };

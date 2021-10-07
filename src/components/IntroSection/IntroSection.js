@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactSVG as SVG } from "react-svg";
 import { content } from "./content";
 import "./style.css";
 import SocialLinks from "../SocialLinks/SocialLinks";
@@ -10,7 +9,6 @@ const IntroSection = () => {
   return (
     <>
       <div className="intro">
-        <SVG src={"assets/svgs/intro-page-svg.svg"} className="intro-svg" />
         <div className="left-column">
           <div className="intro-title">
             <div className="greeting">{content.greeting}</div>
@@ -36,7 +34,6 @@ const IntroSection = () => {
               className="button-download"
             >
               {content.buttonTitle}
-              <i className="fas fa-external-link-alt"></i>
             </button>
           </div>
         </div>
